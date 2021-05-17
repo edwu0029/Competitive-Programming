@@ -9,6 +9,6 @@ w = list(map(int, input().split(' ')))
 
 ans = 0
 for i in range(N):
-	ans+=w[i]*(h[i]+h[i+1])
+    ans+=w[i]*(h[i]+h[i+1])
 ans/=2
 print(ans)

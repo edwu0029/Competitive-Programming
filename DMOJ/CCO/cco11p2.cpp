@@ -35,37 +35,37 @@ const ll MOD = 1e9+7;
 const ll MODll = 4000004479;
 const int MAXN = 2e4+5, LOG = 16;
 struct path{
-	int v, d, s;
-	friend bool operator<(const path &a, const path &b){
-		return a.d>b.d;
-	}
+    int v, d, s;
+    friend bool operator<(const path &a, const path &b){
+        return a.d>b.d;
+    }
 };
 int S, N, E, dis[1601][3601], ans = inf;
 vector<path>adj[1601];
 priority_queue<path>pq;
 int main(){
     scanf("%d%d%d", &S, &N, &E);
-	for(int i = 0, s, t, d, u;i<E;i++){
-		scanf("%d%d%d%d", &s, &t, &d, &u);
-		if(u==1){u=d;}
-		else u = 0;
-		adj[s].push_back({t, d, u});
-		adj[t].push_back({s, d, u});
-	}
-	memset(dis, 0x3f, sizeof(dis));
-	pq.push({0, 0, 0}); dis[0][0]=0;
-	while(!pq.empty()){
-		int v = pq.top().v, d = pq.top().d, s = pq.top().s;
-		if(v==N-1)break;
-		pq.pop();
-		for(path i:adj[v]){
-			if(s+i.s<=S&&dis[i.v][s+i.s]>dis[v][s]+i.d){
-				dis[i.v][s+i.s]=dis[v][s]+i.d;
-				pq.push({i.v, dis[i.v][s+i.s], s+i.s});
-			}
-		}
-	}
-	for(int i = 0;i<=S;i++)ans = min(ans, dis[N-1][i]);
-	if(ans==0x3f3f3f3f){printf("-1\n"); return 0;}
-	printf("%d\n", ans);
+    for(int i = 0, s, t, d, u;i<E;i++){
+        scanf("%d%d%d%d", &s, &t, &d, &u);
+        if(u==1){u=d;}
+        else u = 0;
+        adj[s].push_back({t, d, u});
+        adj[t].push_back({s, d, u});
+    }
+    memset(dis, 0x3f, sizeof(dis));
+    pq.push({0, 0, 0}); dis[0][0]=0;
+    while(!pq.empty()){
+        int v = pq.top().v, d = pq.top().d, s = pq.top().s;
+        if(v==N-1)break;
+        pq.pop();
+        for(path i:adj[v]){
+            if(s+i.s<=S&&dis[i.v][s+i.s]>dis[v][s]+i.d){
+                dis[i.v][s+i.s]=dis[v][s]+i.d;
+                pq.push({i.v, dis[i.v][s+i.s], s+i.s});
+            }
+        }
+    }
+    for(int i = 0;i<=S;i++)ans = min(ans, dis[N-1][i]);
+    if(ans==0x3f3f3f3f){printf("-1\n"); return 0;}
+    printf("%d\n", ans);
 }

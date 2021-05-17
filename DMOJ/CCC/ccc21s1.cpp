@@ -36,7 +36,7 @@ const ll MODll = 4000004479;
 const int MAXN = 1e4+5, LOG = 16;
 int N, h[MAXN], w[MAXN];
 int main(){
-	ios_base::sync_with_stdio(false), cin.tie(nullptr);
+    ios_base::sync_with_stdio(false), cin.tie(nullptr);
     cin >> N;
     for(int i = 1;i<=N+1;i++) cin >> h[i];
     for(int i = 1;i<=N;i++) cin >> w[i];

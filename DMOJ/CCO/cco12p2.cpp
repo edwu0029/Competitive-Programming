@@ -35,10 +35,10 @@ const ll MOD = 1e9+7;
 const ll MODll = 4000004479;
 const int MAXN = 2e4+5, LOG = 16;
 struct E{
-	int v, w;
-	bool friend operator<(const E &A, const E &B){
-		return A.w>B.w;
-	}
+    int v, w;
+    bool friend operator<(const E &A, const E &B){
+        return A.w>B.w;
+    }
 };
 int N, M, dis[MAXN][2];
 vector<E>adj[MAXN];
@@ -46,27 +46,27 @@ priority_queue<E>pq;
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
     cin >> N >> M;
-	for(int i = 0, a, b, w;i<M;i++){
-		cin >> a >> b >> w;
-		adj[a].push_back({b, w});
-	}
-	memset(dis, 0x3f, sizeof(dis));
-	dis[1][0]=0;
-	pq.push({1, 0});
-	while(!pq.empty()){
-		int curv = pq.top().v, curw = pq.top().w; pq.pop();
-		for(E i:adj[curv]){
-			if(dis[i.v][0]>curw+i.w){
-				dis[i.v][1]=dis[i.v][0];
-				dis[i.v][0]=curw+i.w;
-				pq.push({i.v, curw+i.w});
-			}else if(dis[i.v][1]>curw+i.w&&dis[i.v][0]!=curw+i.w){
-				dis[i.v][1]=curw+i.w;
-				pq.push({i.v, curw+i.w});
-			}
-		}
-	}
-	if(dis[N][1]==0x3f3f3f3f)cout << -1 << '\n';
-	else cout << dis[N][1] << '\n';
-	return 0;
+    for(int i = 0, a, b, w;i<M;i++){
+        cin >> a >> b >> w;
+        adj[a].push_back({b, w});
+    }
+    memset(dis, 0x3f, sizeof(dis));
+    dis[1][0]=0;
+    pq.push({1, 0});
+    while(!pq.empty()){
+        int curv = pq.top().v, curw = pq.top().w; pq.pop();
+        for(E i:adj[curv]){
+            if(dis[i.v][0]>curw+i.w){
+                dis[i.v][1]=dis[i.v][0];
+                dis[i.v][0]=curw+i.w;
+                pq.push({i.v, curw+i.w});
+            }else if(dis[i.v][1]>curw+i.w&&dis[i.v][0]!=curw+i.w){
+                dis[i.v][1]=curw+i.w;
+                pq.push({i.v, curw+i.w});
+            }
+        }
+    }
+    if(dis[N][1]==0x3f3f3f3f)cout << -1 << '\n';
+    else cout << dis[N][1] << '\n';
+    return 0;
 }

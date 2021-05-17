@@ -49,7 +49,7 @@ public class cco08p5 {
         while (c <= ' ') {
             c = Read();
         }
-	    do {
+        do {
             ret[idx++] = c;
             c = Read();
         } while (c != -1 && c != ' ' && c != '\n' && c != '\r');
@@ -70,9 +70,9 @@ public class cco08p5 {
         if (neg)
             return -ret;
         return ret;
-	}
+    }
 
-	public static long readLong() throws IOException {
+    public static long readLong() throws IOException {
         long ret = 0;
         byte c = Read();
         while (c <= ' ')
@@ -121,34 +121,33 @@ public class cco08p5 {
         if (bufferPointer == bytesRead)
             fillBuffer();
         return buffer[bufferPointer++];
-	}
+    }
 
-	public void close() throws IOException {
-		if (din == null)
-			return;
-		din.close();
-	}
+    public void close() throws IOException {
+        if (din == null)
+            return;
+        din.close();
+    }
 
-	static void print(Object o) {
-		pr.print(o);
-	}
+    static void print(Object o) {
+        pr.print(o);
+    }
 
-	static void println(Object o) {
-		pr.println(o);
-	}
+    static void println(Object o) {
+        pr.println(o);
+    }
 
-	static void flush() {
-		pr.flush();
-	}
+    static void flush() {
+        pr.flush();
+    }
 
-	static void println() {
-		pr.println();
-	}
+    static void println() {
+        pr.println();
+    }
 
-	static void exit() throws IOException {
-		din.close();
-		pr.close();
-		System.exit(0);
-	}
-
+    static void exit() throws IOException {
+        din.close();
+        pr.close();
+        System.exit(0);
+    }
 }

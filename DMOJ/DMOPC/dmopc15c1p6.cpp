@@ -35,54 +35,54 @@ const ll MOD = 1e9+7;
 const ll MODll = 4000004479;
 const int MAXN = 1e5+5, LOG = 16;
 struct node{
-	int l, r;
-	ll lazy, sum;
+    int l, r;
+    ll lazy, sum;
 }seg[3*MAXN];
 int M, N, Q, F[MAXN];
 void build_tree(int l, int r, int i){
-	seg[i].l = l; seg[i].r = r;
-	if(l==r){seg[i].lazy = 0; seg[i].sum = F[l]; return;}
-	int mid = (l+r)/2;
-	build_tree(l, mid, 2*i); build_tree(mid+1, r, 2*i+1);
-	seg[i].sum = seg[2*i].sum+seg[2*i+1].sum;
+    seg[i].l = l; seg[i].r = r;
+    if(l==r){seg[i].lazy = 0; seg[i].sum = F[l]; return;}
+    int mid = (l+r)/2;
+    build_tree(l, mid, 2*i); build_tree(mid+1, r, 2*i+1);
+    seg[i].sum = seg[2*i].sum+seg[2*i+1].sum;
 }
 void update(int l, int r, int val, int i){
-	if(seg[i].l==l&&seg[i].r==r){
-		seg[i].lazy+=val; seg[i].sum+=(ll)val*(r-l+1);
-		return;
-	}
-	if(seg[i].lazy!=0){
-		seg[2*i].lazy+=seg[i].lazy; seg[2*i+1].lazy+=seg[i].lazy;
-		seg[2*i].sum+=(seg[i].lazy*(seg[2*i].r-seg[2*i].l+1));
-		seg[2*i+1].sum+=(seg[i].lazy*(seg[2*i+1].r-seg[2*i+1].l+1));
-		seg[i].lazy = 0;
-	}
-	int mid = (seg[i].l+seg[i].r)/2;
-	if(r<=mid){
-		update(l, r, val, 2*i);
-	}else if(l>mid){
-		update(l, r, val, 2*i+1);
-	}else{
-		update(l, mid, val, 2*i); update(mid+1, r, val, 2*i+1);
-	}
-	seg[i].sum = seg[2*i].sum+seg[2*i+1].sum;
+    if(seg[i].l==l&&seg[i].r==r){
+        seg[i].lazy+=val; seg[i].sum+=(ll)val*(r-l+1);
+        return;
+    }
+    if(seg[i].lazy!=0){
+        seg[2*i].lazy+=seg[i].lazy; seg[2*i+1].lazy+=seg[i].lazy;
+        seg[2*i].sum+=(seg[i].lazy*(seg[2*i].r-seg[2*i].l+1));
+        seg[2*i+1].sum+=(seg[i].lazy*(seg[2*i+1].r-seg[2*i+1].l+1));
+        seg[i].lazy = 0;
+    }
+    int mid = (seg[i].l+seg[i].r)/2;
+    if(r<=mid){
+        update(l, r, val, 2*i);
+    }else if(l>mid){
+        update(l, r, val, 2*i+1);
+    }else{
+        update(l, mid, val, 2*i); update(mid+1, r, val, 2*i+1);
+    }
+    seg[i].sum = seg[2*i].sum+seg[2*i+1].sum;
 }
 ll query(int l, int r, int i){
-	if(seg[i].l==l&&seg[i].r==r)return seg[i].sum;
-	if(seg[i].lazy!=0){
-		seg[2*i].lazy+=seg[i].lazy; seg[2*i+1].lazy+=seg[i].lazy;
-		seg[2*i].sum+=(seg[i].lazy*(seg[2*i].r-seg[2*i].l+1));
-		seg[2*i+1].sum+=(seg[i].lazy*(seg[2*i+1].r-seg[2*i+1].l+1));
-		seg[i].lazy = 0;
-	}
-	int mid = (seg[i].l+seg[i].r)/2;
-	if(r<=mid){
-		return query(l, r, 2*i);
-	}else if(l>mid){
-		return query(l, r, 2*i+1);
-	}else{
-		return query(l, mid, 2*i)+query(mid+1, r, 2*i+1);
-	}
+    if(seg[i].l==l&&seg[i].r==r)return seg[i].sum;
+    if(seg[i].lazy!=0){
+        seg[2*i].lazy+=seg[i].lazy; seg[2*i+1].lazy+=seg[i].lazy;
+        seg[2*i].sum+=(seg[i].lazy*(seg[2*i].r-seg[2*i].l+1));
+        seg[2*i+1].sum+=(seg[i].lazy*(seg[2*i+1].r-seg[2*i+1].l+1));
+        seg[i].lazy = 0;
+    }
+    int mid = (seg[i].l+seg[i].r)/2;
+    if(r<=mid){
+        return query(l, r, 2*i);
+    }else if(l>mid){
+        return query(l, r, 2*i+1);
+    }else{
+        return query(l, mid, 2*i)+query(mid+1, r, 2*i+1);
+    }
 }
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
