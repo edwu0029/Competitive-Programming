@@ -35,10 +35,10 @@ const ll MOD = 1e9+7;
 const ll MODll = 4000004479;
 const int MAXN = 1e5+5, LOG = 16;
 struct anime{
-	ll s, e, w;
+    ll s, e, w;
 };
 bool cmpA(anime A, anime B){
-	return A.e<B.e;
+    return A.e<B.e;
 }
 int N;
 ll dp[MAXN];
@@ -46,26 +46,26 @@ anime F[MAXN];
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
     cin >> N;
-	for(int i = 1;i<=N;i++){
-		ll R, L, H;
-		cin >> R >> L >> H;
-		F[i] = {R, R+L-1, H};
-	}
-	sort(F+1, F+1+N, cmpA);
-	for(int i = 1, l, r, b;i<=N;i++){
-		ll start = F[i].s, send = F[i].e, weight = F[i].w;
-		l = 0; r = i;
-		while(l<=r){
-			int mid = (l+r)/2;
-			if(F[mid].e<start){
-				l = mid+1;
-				b = mid;
-			}else{
-				r = mid-1;
-			}
-		}
-		dp[i] = max(dp[i-1], dp[b]+weight);
-	}
-	cout << dp[N] << nl;
+    for(int i = 1;i<=N;i++){
+        ll R, L, H;
+        cin >> R >> L >> H;
+        F[i] = {R, R+L-1, H};
+    }
+    sort(F+1, F+1+N, cmpA);
+    for(int i = 1, l, r, b;i<=N;i++){
+        ll start = F[i].s, send = F[i].e, weight = F[i].w;
+        l = 0; r = i;
+        while(l<=r){
+            int mid = (l+r)/2;
+            if(F[mid].e<start){
+                l = mid+1;
+                b = mid;
+            }else{
+                r = mid-1;
+            }
+        }
+        dp[i] = max(dp[i-1], dp[b]+weight);
+    }
+    cout << dp[N] << nl;
     return 0;
 }

@@ -39,22 +39,22 @@ ll N, K, C, ans;
 int T;
 matrix id, a;
 matrix mult(matrix a, matrix b){
-	matrix ret(T+1, vector<ll>(T+1, 0));
-	for(int i = 0;i<=T;i++){
-		for(int j = 0;j<=T;j++){
-			for(int k = 0;k<=T;k++){
-				ret[i][j] = (ret[i][j]+a[i][k]*b[k][j])%MOD;
-			}
-		}
-	}
-	return ret;
+    matrix ret(T+1, vector<ll>(T+1, 0));
+    for(int i = 0;i<=T;i++){
+        for(int j = 0;j<=T;j++){
+            for(int k = 0;k<=T;k++){
+                ret[i][j] = (ret[i][j]+a[i][k]*b[k][j])%MOD;
+            }
+        }
+    }
+    return ret;
 }
 matrix bin_pow(matrix x, ll exp){
-	if(exp==0) return id;
-	matrix t = bin_pow(x, exp/2);
-	t = mult(t, t);
-	if(exp%2==0) return t;
-	else return mult(t, x);
+    if(exp==0) return id;
+    matrix t = bin_pow(x, exp/2);
+    t = mult(t, t);
+    if(exp%2==0) return t;
+    else return mult(t, x);
 }
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);

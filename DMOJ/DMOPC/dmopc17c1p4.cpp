@@ -38,14 +38,14 @@ int N, H, pre = 0, cur = 1;
 ll dp[5005][2];
 int main(){
     scanf("%d%d", &N, &H);
-	for(int i = 0, g, h, q, t;i<N;i++){
-		scanf("%d%d%d%d", &g, &h, &q, &t);
-		for(int j = 0;j<=H;j++) dp[j][cur]=0;
-		for(int j = h;j<=H;j++) dp[j][cur]=dp[j-h][pre]+g;
-		for(int j = h+t;j<=H;j++) dp[j][cur]=max(dp[j][cur], dp[j-t][cur]+q);
-		for(int j = 0;j<=H;j++) dp[j][cur]=max(dp[j][cur], dp[j][pre]);
-		swap(pre, cur);
-	}
-	printf("%lld\n", dp[H][pre]);
+    for(int i = 0, g, h, q, t;i<N;i++){
+        scanf("%d%d%d%d", &g, &h, &q, &t);
+        for(int j = 0;j<=H;j++) dp[j][cur]=0;
+        for(int j = h;j<=H;j++) dp[j][cur]=dp[j-h][pre]+g;
+        for(int j = h+t;j<=H;j++) dp[j][cur]=max(dp[j][cur], dp[j-t][cur]+q);
+        for(int j = 0;j<=H;j++) dp[j][cur]=max(dp[j][cur], dp[j][pre]);
+        swap(pre, cur);
+    }
+    printf("%lld\n", dp[H][pre]);
     return 0;
 }

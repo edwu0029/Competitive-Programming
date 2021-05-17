@@ -40,38 +40,38 @@ ll bit[MAXN], ans[MAXN];
 pii values[MAXN];
 tiiii queries[MAXN];
 void update(int i, int val){
-	for(;i<=N;i+=(i&-i))bit[i]+=val;
+    for(;i<=N;i+=(i&-i))bit[i]+=val;
 }
 ll query(int i){
-	ll sum = 0;
-	for(;i>0;i-=(i&-i))sum+=bit[i];
-	return sum;
+    ll sum = 0;
+    for(;i>0;i-=(i&-i))sum+=bit[i];
+    return sum;
 }
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
     cin >> N >> Q;
-	for(int i = 1, x;i<=N;i++){cin >> x; values[i] = {x, i};}
-	for(int i = 1, l, r, k;i<=Q;i++){cin >> l >> r >> k; queries[i] = {k, l, r, i};}
-	sort(values+1, values+1+N); sort(queries+1, queries+1+Q);
-	int curIndexV = N, maxV = values[N].first, curK, curL, curR, curI;
-	for(int curIndexQ = Q;curIndexQ>=0;curIndexQ--){
-		curK = get<0>(queries[curIndexQ]);
-		curL = get<1>(queries[curIndexQ]);
-		curR = get<2>(queries[curIndexQ]);
-		curI = get<3>(queries[curIndexQ]);
-		while(maxV>=curK&&curIndexV>=1){
-			update(values[curIndexV].second, values[curIndexV].first);
-			curIndexV--;
-			if(curIndexV>=1)maxV = values[curIndexV].first;
-		}
-		ans[curI] = query(curR)-query(curL-1);
-	}
-	for(int i = 1;i<=Q;i++){
-		curL = get<1>(queries[i]);
-		curR = get<2>(queries[i]);
-		curI = get<3>(queries[i]);
-		ans[curI] = 2*ans[curI]-(query(curR)-query(curL-1));
-	}
-	for(int i = 1;i<=Q;i++)cout << ans[i] << nl;
+    for(int i = 1, x;i<=N;i++){cin >> x; values[i] = {x, i};}
+    for(int i = 1, l, r, k;i<=Q;i++){cin >> l >> r >> k; queries[i] = {k, l, r, i};}
+    sort(values+1, values+1+N); sort(queries+1, queries+1+Q);
+    int curIndexV = N, maxV = values[N].first, curK, curL, curR, curI;
+    for(int curIndexQ = Q;curIndexQ>=0;curIndexQ--){
+        curK = get<0>(queries[curIndexQ]);
+        curL = get<1>(queries[curIndexQ]);
+        curR = get<2>(queries[curIndexQ]);
+        curI = get<3>(queries[curIndexQ]);
+        while(maxV>=curK&&curIndexV>=1){
+            update(values[curIndexV].second, values[curIndexV].first);
+            curIndexV--;
+            if(curIndexV>=1)maxV = values[curIndexV].first;
+        }
+        ans[curI] = query(curR)-query(curL-1);
+    }
+    for(int i = 1;i<=Q;i++){
+        curL = get<1>(queries[i]);
+        curR = get<2>(queries[i]);
+        curI = get<3>(queries[i]);
+        ans[curI] = 2*ans[curI]-(query(curR)-query(curL-1));
+    }
+    for(int i = 1;i<=Q;i++)cout << ans[i] << nl;
     return 0;
 }

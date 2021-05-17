@@ -38,27 +38,27 @@ int W, D, V, buttons[10];
 bool check[6][5000001];
 set<int>f;
 void rec(int curval, int cnt){
-	if(cnt==W){
-		f.insert(curval);
-		return;
-	}
-	if(!check[cnt][curval]){
-		check[cnt][curval]=true;
-	}else return;
-	for(int i = 0;i<D;i++){
-		rec(curval+buttons[i], cnt+1);
-		rec(curval*buttons[i], cnt+1);
-	}
+    if(cnt==W){
+        f.insert(curval);
+        return;
+    }
+    if(!check[cnt][curval]){
+        check[cnt][curval]=true;
+    }else return;
+    for(int i = 0;i<D;i++){
+        rec(curval+buttons[i], cnt+1);
+        rec(curval*buttons[i], cnt+1);
+    }
 }
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
     cin >> W >> D;
     for(int i = 0;i<D;i++) cin >> buttons[i];
-	for(int i = 0;i<D;i++) rec(buttons[i], 0);
+    for(int i = 0;i<D;i++) rec(buttons[i], 0);
     cin >> V;
     for(int i = 0;i<V;i++){
         int tmp; cin >> tmp;
         if(f.count(tmp)) cout << "Y" << '\n';
-		else cout << "N" << '\n';
+        else cout << "N" << '\n';
     }
 }
