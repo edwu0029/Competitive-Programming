@@ -1,40 +1,33 @@
-//Problem: https://dmoj.ca/problem/cco14p1
+//Problem: https://dmoj.ca/problem/ccc19s2
 
 import java.util.StringTokenizer;
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class cco14p1{
+public class ccc19s2{
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
+    static int MAXN = 2000002;
     public static void main(String[]args) throws IOException{
-        int N = readInt(); String s="";
-        char[][]F = new char[N][N];
-        for(int i = 0;i<N;i++){
-            s = read();
-            for(int d = 0;d<N;d++){ 
-                F[i][d]=s.charAt(d);
+        boolean[]p = new boolean[MAXN];
+        for(int i = 2;i<MAXN;i++){
+            if(p[i]) continue;
+            for(int j = 2*i;j<MAXN;j+=i){
+                p[j] = true;
             }
         }
-        int[][]dp = new int[N][N];
-        for(int i = N-1;i>=0;i--){
-            for(int d=0;d<N;d++){
-                if(F[i][d]=='#'){
-                    dp[i][d] = 1;
-                    if(i+1<N&&d-1>=0&&d+1<N) dp[i][d]+=Math.min(dp[i+1][d-1], Math.min(dp[i+1][d], dp[i+1][d+1]));
-                }else{
-                    dp[i][d]=0;
+        int T = readInt();
+        for(int i = 0;i<T;i++){
+            int N = readInt();
+            for(int j = 2;j<=MAXN/2;j++){
+                int A = j, B = 2*N-A;
+                if(!p[A] && !p[B]){
+                    System.out.println(A+" "+B);
+                    break;
                 }
             }
         }
-        int cnt = 0;
-        for(int i = 0;i<N;i++){
-            for(int d = 0;d<N;d++){
-                cnt+=dp[i][d];
-            }
-        }
-        System.out.println(cnt);
     }
     static String read() throws IOException{
         while(st==null||!st.hasMoreTokens())
