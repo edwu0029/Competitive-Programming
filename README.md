@@ -1,2 +1,8 @@
 # Competitive-Programming-Solutions
-A library of my solutions to various competitive programming problems(CCC, USACO, etc.) on various online judges(DMOJ, Codeforces, Atcoder, etc.)
+A library of my solutions to various competitive programming problems from a variety of different online judges.
+
+|Online Judge|Username|
+| ------ | ------ |
+| DMOJ | [jwed](https://dmoj.ca/user/jwed) |
+| Codeforces | [jwed](https://codeforces.com/profile/jwed) |
+| Atcoder | [jwed](https://atcoder.jp/users/jwed) |
