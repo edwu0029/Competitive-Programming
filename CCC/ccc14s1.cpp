@@ -1,4 +1,4 @@
-//Problem: https://dmoj.ca/problem/
+//Problem: https://dmoj.ca/problem/ccc14s1
 
 #include <iostream>
 #include <vector>
@@ -16,7 +16,6 @@
 #include <map>
 #include <unordered_map>
 #include <bitset>
-#include <stack>
 #include <cstring>
 #include <climits>
 using namespace std;
@@ -34,8 +33,24 @@ const int inf = 0x3f3f3f3f;
 const ll infll = 0x3f3f3f3f3f3f3f3f;
 const ll MOD = 1e9+7;
 const ll MODll = 4000004479;
-const int MAXN = 1e6+5, LOG = 16;
+int K, M;
+vector<int>ans;
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
+    cin >> K >> M;
+    for(int i = 1;i<=K;i++) ans.pb(i);
+    for(int i = 0, x;i<M;i++){
+        cin >> x;
+        vector<int>n;
+        for(int j = 0;j<ans.size();j++){
+            if((j+1)%x!=0){
+                n.pb(ans[j]);
+            }
+        }
+        ans = n;
+    }
+    for(int i:ans){
+        cout << i << nl;
+    }
     return 0;
 }
