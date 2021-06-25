@@ -39,31 +39,31 @@ int N, M, p, q;
 vector<int>F[MAXN];
 bool vis[MAXN];
 void bfs(int p, int q){
-	for(int i = 0;i<MAXN;i++) vis[i]=false;
-	queue<int>que;
+    for(int i = 0;i<MAXN;i++) vis[i]=false;
+    queue<int>que;
     que.push(p);
     vis[p]=true;
-	while(!que.empty()){
-		int cur = que.front(); que.pop();
-		for(int i = 0, tmp;i<F[cur].size();i++){
-			tmp = F[cur].at(i);
-			if(!vis[tmp]){
+    while(!que.empty()){
+        int cur = que.front(); que.pop();
+        for(int i = 0, tmp;i<F[cur].size();i++){
+            tmp = F[cur].at(i);
+            if(!vis[tmp]){
                 vis[tmp]=true;
                 que.push(tmp);
             }
-		}
-	}
+        }
+    }
 }
 int main(){
     scanf("%d%d",&N,&M);
-	for(int i = 0;i<M;i++){
-		int a, b; scanf("%d%d",&a,&b);
-		F[a].push_back(b);
-	}
-	scanf("%d%d",&p,&q);
-	bfs(p,q); bool pgq = vis[q];
-	bfs(q,p); bool qgp = vis[p];
-	if(pgq){
+    for(int i = 0;i<M;i++){
+        int a, b; scanf("%d%d",&a,&b);
+        F[a].push_back(b);
+    }
+    scanf("%d%d",&p,&q);
+    bfs(p,q); bool pgq = vis[q];
+    bfs(q,p); bool qgp = vis[p];
+    if(pgq){
         cout << "yes" << nl;
     }else if(qgp){
         cout << "no" << nl;

@@ -43,7 +43,7 @@ int main(){
     sort(F, F+N); sort(F2, F2+N);
     if(a==2)
         for(int i = 0;i<N;i++) ans+=max(F[i], F2[N-1-i]);
-	else
+    else
         for(int i = 0;i<N;i++) ans+=max(F[i], F2[i]);
     cout << ans << nl;
     return 0;
