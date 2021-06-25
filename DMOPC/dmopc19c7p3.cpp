@@ -1,39 +1,15 @@
 //Problem: https://dmoj.ca/problem/dmopc19c7p3
 
-#include <iostream>
-#include <vector>
-#include <limits>
-#include <cstdlib>
-#include <algorithm>
-#include <functional>
-#include <complex>
-#include <iomanip>
-#include <cassert>
-#include <queue>
-#include <deque>
-#include <set>
-#include <unordered_set>
-#include <map>
-#include <unordered_map>
-#include <bitset>
-#include <cstring>
-#include <climits>
+#include <bits/stdc++.h>
 using namespace std;
+#define nl '\n'
 typedef long long ll;
 typedef unsigned long long ull;
 typedef pair<int, int> pii;
-#define nl '\n'
-#define sp ' '
-#define f first
-#define s second
-#define mp(a, b) make_pair(a, b)
-#define pb push_back
-#define EPS 1e-9
-const int inf = 0x3f3f3f3f;
-const ll infll = 0x3f3f3f3f3f3f3f3f;
-const ll MOD = 1e9+7;
-const ll MODll = 4000004479;
-const int MAXN = 1e6+5, LOG = 16;
+typedef pair<ll, ll> pll;
+const int INFI = 0x3f3f3f3f;
+const ll INFLL = 0x3f3f3f3f3f3f3f3f;
+const int MAXN = 1e6+2;
 int N;
 ll K, w[MAXN], sum;
 bool vis[MAXN], done;
@@ -68,8 +44,12 @@ int main(){
     }
     if(done){
         cout << ans.size() << nl;
-        for(int i:ans) cout << i << " ";
+        for(int i:ans){
+            cout << i << " ";
+        }
         cout << nl;
-    }else cout << "-1" << nl;
+    }else{
+        cout << "-1" << nl;
+    }
     return 0;
 }
