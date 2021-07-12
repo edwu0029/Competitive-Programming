@@ -1,4 +1,4 @@
-//Problem: https://cses.fi/problemset/task/1069/
+//Problem: https://cses.fi/problemset/task/1141/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -14,20 +14,30 @@ const ll infll = 0x3f3f3f3f3f3f3f3f;
 const ll MOD = 1e9+7;
 const ll MODll = 4000004479;
 const int MAXN = 2e5+5;
-string N;
+int N, k[MAXN];
+map<int, int>m;
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
     cin >> N;
-    char pre = ' ';
-    int cnt = 0, ans = 1;
-    for(int i = 0;i<N.size();i++){
-        if(N[i]==pre){
+    for(int i = 1;i<=N;i++){
+        cin >> k[i];
+    }
+    int cnt  = 0, ans = 0;
+    int l = 1, r = 1;
+    for(;r<=N;r++){
+        if(m[k[r]]==0){
             cnt++;
+            m[k[r]] = r;
         }else{
-            cnt = 1;
+            int pre = m[k[r]];
+            for(;l<=pre;l++){
+                m[k[l]] = 0;
+                cnt--;
+            }
+            cnt++;
+            m[k[r]] = r;
         }
         ans = max(ans, cnt);
-        pre = N[i];
     }
     cout << ans << nl;
     return 0;

@@ -1,4 +1,4 @@
-//Problem: https://cses.fi/problemset/task/1622/
+//Problem: https://cses.fi/problemset/task/1643
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -14,27 +14,16 @@ const ll infll = 0x3f3f3f3f3f3f3f3f;
 const ll MOD = 1e9+7;
 const ll MODll = 4000004479;
 const int MAXN = 2e5+5;
-string s;
-int N, c;
-set<string>ans;
-void solve(int check, string a){
-    if(check==(1<<N)-1){
-        ans.insert(a);
-        return;
-    }
-    for(int i = 0;i<N;i++){
-        if(check&(1<<i)) continue;
-        solve(check|(1<<i), a+s[i]);
-    }
-}
+int N;
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
-    cin >> s;
-    N = s.size();
-    solve(0, "");
-    cout << ans.size() << nl;
-    for(auto i:ans){
-        cout << i << nl;
+    cin >> N;
+    ll mx = -inf, ans = -inf;
+    for(int i = 0, x;i<N;i++){
+        cin >> x;
+        mx = max(1LL*x, mx+x);
+        ans = max(ans, mx);
     }
+    cout << ans << nl;
     return 0;
 }
