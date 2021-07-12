@@ -1,4 +1,4 @@
-//Problem: https://cses.fi/problemset/task/1617
+//Problem: https://cses.fi/problemset/task/1073/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -13,13 +13,23 @@ const int inf = 0x3f3f3f3f;
 const ll infll = 0x3f3f3f3f3f3f3f3f;
 const ll MOD = 1e9+7;
 const ll MODll = 4000004479;
-const int MAXN = 2e5+5;
 int N;
+multiset<int>s;
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
     cin >> N;
-    ll ans = 1;
-    for(int i = 0;i<N;i++) ans = (ans*1LL*2)%MOD;
+    int ans = 0;
+    for(int i = 0, k;i<N;i++){
+        cin >> k;
+        auto pos = s.upper_bound(k);
+        if(pos==s.end()){
+            ans++;
+            s.insert(k);
+        }else{
+            s.erase(pos);
+            s.insert(k);
+        }
+    }
     cout << ans << nl;
     return 0;
 }

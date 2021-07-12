@@ -1,23 +1,6 @@
 //Problem: https://cses.fi/problemset/task/1754/
 
-#include <iostream>
-#include <vector>
-#include <limits>
-#include <cstdlib>
-#include <algorithm>
-#include <functional>
-#include <complex>
-#include <iomanip>
-#include <cassert>
-#include <queue>
-#include <deque>
-#include <set>
-#include <unordered_set>
-#include <map>
-#include <unordered_map>
-#include <bitset>
-#include <cstring>
-#include <climits>
+#include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;

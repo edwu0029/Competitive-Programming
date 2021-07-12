@@ -1,4 +1,4 @@
-//Problem: https://cses.fi/problemset/task/1622/
+//Problem: https://cses.fi/problemset/task/1629/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -14,27 +14,24 @@ const ll infll = 0x3f3f3f3f3f3f3f3f;
 const ll MOD = 1e9+7;
 const ll MODll = 4000004479;
 const int MAXN = 2e5+5;
-string s;
-int N, c;
-set<string>ans;
-void solve(int check, string a){
-    if(check==(1<<N)-1){
-        ans.insert(a);
-        return;
-    }
-    for(int i = 0;i<N;i++){
-        if(check&(1<<i)) continue;
-        solve(check|(1<<i), a+s[i]);
-    }
-}
+int N;
+pii movies[MAXN];
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
-    cin >> s;
-    N = s.size();
-    solve(0, "");
-    cout << ans.size() << nl;
-    for(auto i:ans){
-        cout << i << nl;
+    cin >> N;
+    for(int i = 0, a, b;i<N;i++){
+        cin >> a >> b;
+        movies[i] = {b, b-a};
     }
+    sort(movies, movies+N);
+    int p = 0, ans = 0;
+    for(int i = 0;i<N;i++){
+        pii cur = movies[i];
+        if(cur.first-cur.second>=p){
+            p = cur.first;
+            ans++;
+        }
+    }
+    cout << ans << nl;
     return 0;
 }
