@@ -12,7 +12,7 @@ public class dwite11c4p2 {
         for(int i = 0;i<5;i++){
             int n = readInt();
             for(int d = 2;d<=n;d++){
-                    primefactor(d);
+                primefactor(d);
             }
             boolean flag = true;
             for(int d=0;d<100000;d++){

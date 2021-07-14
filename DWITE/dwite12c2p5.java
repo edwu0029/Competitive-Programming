@@ -16,24 +16,23 @@ public class dwite12c2p5 {
                 temp:
                 for(int j = 1;j<=M*2+1&&i-j>0;j++){
                     for(int k = 1;k<j;k++){
-                        if (!see(height, i - j, i - k) && !see(height, i, i - k))
-                            continue temp;
+                        if(!see(height, i-j, i-k) && !see(height, i, i-k)) continue temp;
                     }
-                    min = Math.min(dp[i - j], min);
+                    min = Math.min(dp[i-j], min);
                 }
-                if (i <= M && see(height, i, 0))
+                if (i<=M&&see(height, i, 0))
                     min = 0;
                 dp[i] = min + 1;
             }
-            int min = dp[N - 1];
+            int min = dp[N-1];
             for (int j = 1;j<=M&&N-1-j>=0;j++) {
-                if (see(height, N-1-j,N - 1))
+                if (see(height, N-1-j, N-1))
                     min = Math.min(dp[N-1-j],min);
             }
             System.out.println(min);
         }
     }
-    static boolean see (int[]heights, int g, int c){
+    static boolean see(int[]heights, int g, int c){
         if(g-c>0){
             for(int i = g-1;i>c;i--){
                 if(heights[g]<heights[i])return false;

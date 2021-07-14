@@ -1,9 +1,7 @@
 //Problem: https://dmoj.ca/problem/ccc21s1
 
-import java.util.StringTokenizer;
-import java.io.IOException;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.util.*;
+import java.io.*;
 
 public class ccc21s1{
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

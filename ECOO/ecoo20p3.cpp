@@ -2,13 +2,19 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-#define nl '\n'
 typedef long long ll;
 typedef unsigned long long ull;
 typedef pair<int, int> pii;
-typedef pair<ll, ll> pll;
-const int INFI = 0x3f3f3f3f;
-const ll INFLL = 0x3f3f3f3f3f3f3f3f;
+#define nl '\n'
+#define sp ' '
+#define f first
+#define s second
+#define mp(a, b) make_pair(a, b)
+#define EPS 1e-9
+const int inf = 0x3f3f3f3f;
+const ll infll = 0x3f3f3f3f3f3f3f3f;
+const ll MOD = 1e9+7;
+const ll MODll = 4000004479;
 int T, N, h, w;
 string cap[502], newcap[502];
 void prune(int H, int W){
@@ -17,33 +23,33 @@ void prune(int H, int W){
     for(int i = 0;i<H;i++){
         int cnt = 0;
         for(int j = 0;j<W;j++){
-            if(cap[i][j]=='*')cnt++;
+            if(cap[i][j]=='*') cnt++;
         }
-        if(cnt==0)hmin++;
+        if(cnt==0) hmin++;
         else break;
     }
     for(int i = H-1;i>=0;i--){
         int cnt = 0;
         for(int j = 0;j<W;j++){
-            if(cap[i][j]=='*')cnt++;
+            if(cap[i][j]=='*') cnt++;
         }
-        if(cnt==0)hmax--;
+        if(cnt==0) hmax--;
         else break;
     }
     for(int i = 0;i<W;i++){
         int cnt = 0;
         for(int j = hmin;j<=hmax;j++){
-            if(cap[j][i]=='*')cnt++;
+            if(cap[j][i]=='*') cnt++;
         }
-        if(cnt==0)wmin++;
+        if(cnt==0) wmin++;
         else break;
     }
     for(int i = W-1;i>=0;i--){
         int cnt = 0;
         for(int j = hmin;j<=hmax;j++){
-            if(cap[j][i]=='*')cnt++;
+            if(cap[j][i]=='*') cnt++;
         }
-        if(cnt==0)wmax--;
+        if(cnt==0) wmax--;
         else break;
     }
     for(int i = hmin;i<=hmax;i++){

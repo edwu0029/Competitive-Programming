@@ -10,19 +10,25 @@ public class dwite11c2p5 {
     static int[]parent;
     static int[]rank;
     public static void main(String args[]) throws IOException{
-        //problem/dwite11c2p5
         for(int pq = 0;pq<5;pq++){
             int N = readInt(), temp = 0, k1 = 0, k2 = 0;
             parent = new int[2*N]; for(int i = 0;i<2*N;i++){parent[i]=i;}
             rank = new int[2*N]; 
             Hashtable<String, Integer>h = new Hashtable<String,Integer>();
             for(int i = 0;i<N;i++){
-                char a = next().charAt(0); String s = next(), s2 = next();
+                char a = next().charAt(0);
+                String s = next(), s2 = next();
                 if(!h.containsKey(s)){h.put(s, temp); temp++;}
                 if(!h.containsKey(s2)){h.put(s2, temp); temp++;}
                 k1 = find(h.get(s)); k2 = find(h.get(s2));
-                if(a=='p'){Union(k1,k2);}
-                if(a=='q'){if(k1==k2){ System.out.println("connected");}else{System.out.println("not connected");}}
+                if(a=='p') Union(k1,k2);
+                if(a=='q'){
+                    if(k1==k2){
+                        System.out.println("connected");
+                    }else{
+                        System.out.println("not connected");
+                    }
+                }
             }
         }
     }

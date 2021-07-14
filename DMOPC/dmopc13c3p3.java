@@ -1,12 +1,7 @@
 //Problem: https://dmoj.ca/problem/dmopc13c3p3
 
-import java.util.StringTokenizer;
-import java.io.IOException;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
+import java.io.*;
 
 public class dmopc13c3p3{
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

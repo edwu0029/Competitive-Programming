@@ -1,33 +1,13 @@
 //Problem: https://dmoj.ca/problem/ccc14s1
 
-#include <iostream>
-#include <vector>
-#include <limits>
-#include <cstdlib>
-#include <algorithm>
-#include <functional>
-#include <complex>
-#include <iomanip>
-#include <cassert>
-#include <queue>
-#include <deque>
-#include <set>
-#include <unordered_set>
-#include <map>
-#include <unordered_map>
-#include <bitset>
-#include <cstring>
-#include <climits>
+#include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;
 typedef pair<int, int> pii;
 #define nl '\n'
 #define sp ' '
-#define f first
-#define s second
 #define mp(a, b) make_pair(a, b)
-#define pb push_back
 #define EPS 1e-9
 const int inf = 0x3f3f3f3f;
 const ll infll = 0x3f3f3f3f3f3f3f3f;
@@ -38,13 +18,13 @@ vector<int>ans;
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
     cin >> K >> M;
-    for(int i = 1;i<=K;i++) ans.pb(i);
+    for(int i = 1;i<=K;i++) ans.push_back(i);
     for(int i = 0, x;i<M;i++){
         cin >> x;
         vector<int>n;
         for(int j = 0;j<ans.size();j++){
             if((j+1)%x!=0){
-                n.pb(ans[j]);
+                n.push_back(ans[j]);
             }
         }
         ans = n;
