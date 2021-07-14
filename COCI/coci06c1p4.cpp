@@ -7,10 +7,7 @@ typedef unsigned long long ull;
 typedef pair<int, int> pii;
 #define nl '\n'
 #define sp ' '
-#define f first
-#define s second
 #define mp(a, b) make_pair(a, b)
-#define pb push_back
 #define EPS 1e-9
 const int inf = 0x3f3f3f3f;
 const ll infll = 0x3f3f3f3f3f3f3f3f;

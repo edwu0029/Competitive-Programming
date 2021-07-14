@@ -2,6 +2,19 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef pair<int, int> pii;
+#define nl '\n'
+#define sp ' '
+#define f first
+#define s second
+#define mp(a, b) make_pair(a, b)
+#define EPS 1e-9
+const int inf = 0x3f3f3f3f;
+const ll infll = 0x3f3f3f3f3f3f3f3f;
+const ll MOD = 1e9+7;
+const ll MODll = 4000004479;
 double F[5][5] = {{1,0.2,0.05,0.025,0.00625},
                  {5,1,0.25,0.125,0.03125,},
                  {20,4,1,0.5,0.125},

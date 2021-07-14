@@ -10,10 +10,11 @@ typedef pair<int, int> pii;
 #define f first
 #define s second
 #define mp(a, b) make_pair(a, b)
-#define pb push_back
 #define EPS 1e-9
 const int inf = 0x3f3f3f3f;
 const ll infll = 0x3f3f3f3f3f3f3f3f;
+const ll MOD = 1e9+7;
+const ll MODll = 4000004479;
 const int MAXN = 1e6+5;
 ll K, tot;
 bool sieve[MAXN];
@@ -21,7 +22,7 @@ vector<ll>primes, factors;
 void primesieve(){
     for(ll i = 2;i<1LL*MAXN;i++){
         if(sieve[i]) continue;
-        primes.pb(1LL*i);
+        primes.push_back(1LL*i);
         for(ll j = i*i;j<1LL*MAXN;j+=i) sieve[j] = true;
     }
 }
@@ -34,7 +35,7 @@ int main(){
         if(K==1||i>K) break;
         if(K%i!=0) continue;
         while(K%i==0){
-            factors.pb(i);
+            factors.push_back(i);
             tot+=i-1;
             K/=i;
         }

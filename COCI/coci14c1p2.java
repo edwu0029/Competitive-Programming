@@ -8,12 +8,9 @@ public class coci14c1p2 {
     static StringTokenizer st;
     public static void main(String[] args) throws IOException{
         int n = readInt();
-        int minx = Integer.MAX_VALUE;
-        int maxx = -1;
-        int miny = Integer.MAX_VALUE;
-        int maxy = -1;
-        int x = 0;
-        int y = 0;
+        int minx = Integer.MAX_VALUE, maxx = -1;
+        int miny = Integer.MAX_VALUE, maxy = -1;
+        int x = 0, y = 0;
         
         for(int i = 0;i<n;i++){
             x = readInt();

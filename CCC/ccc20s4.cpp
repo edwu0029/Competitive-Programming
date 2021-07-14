@@ -1,33 +1,13 @@
 //Problem: https://dmoj.ca/problem/ccc20s4
 
-#include <iostream>
-#include <vector>
-#include <limits>
-#include <cstdlib>
-#include <algorithm>
-#include <functional>
-#include <complex>
-#include <iomanip>
-#include <cassert>
-#include <queue>
-#include <deque>
-#include <set>
-#include <unordered_set>
-#include <map>
-#include <unordered_map>
-#include <bitset>
-#include <cstring>
-#include <climits>
+#include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;
 typedef pair<int, int> pii;
 #define nl '\n'
 #define sp ' '
-#define f first
-#define s second
 #define mp(a, b) make_pair(a, b)
-#define pb push_back
 #define EPS 1e-9
 const int inf = 0x3f3f3f3f;
 const ll infll = 0x3f3f3f3f3f3f3f3f;
