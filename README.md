@@ -1,4 +1,4 @@
-# Competitive-Programming-Solutions
+# Competitive-Programming
 A library of my solutions to various competitive programming problems from a variety of different online judges.
 
 |Online Judge|Username|
