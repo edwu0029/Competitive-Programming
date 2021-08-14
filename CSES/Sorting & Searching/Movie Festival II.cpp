@@ -1,4 +1,4 @@
-//Problem: https://cses.fi/problemset/task/1629/
+//Problem: https://cses.fi/problemset/task/1632/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -14,22 +14,24 @@ const ll infll = 0x3f3f3f3f3f3f3f3f;
 const ll MOD = 1e9+7;
 const ll MODll = 4000004479;
 const int MAXN = 2e5+5;
-int N;
+int N, K, ans;
 pii movies[MAXN];
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
-    cin >> N;
+    cin >> N >> K;
     for(int i = 0, a, b;i<N;i++){
         cin >> a >> b;
         movies[i] = {b, a};
     }
     sort(movies, movies+N);
-    int p = 0, ans = 0;
+    multiset<int>eds;
+    for(int i = 0;i<K;i++) eds.insert(0);
     for(int i = 0;i<N;i++){
-        pii cur = movies[i];
-        if(cur.second>=p){
-            p = cur.first;
+        auto t = eds.upper_bound(movies[i].second);
+        if(t!=eds.begin()){
             ans++;
+            eds.erase(--t);
+            eds.insert(movies[i].first);
         }
     }
     cout << ans << nl;
