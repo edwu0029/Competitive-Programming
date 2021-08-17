@@ -37,7 +37,6 @@ int main(){
     });
     for(auto i:h){
         int xi = get<0>(i), yi = get<1>(i), a = get<2>(i);
-        if(done[a]) continue;
         for(auto j:v){
             int xj = get<0>(j), yj = get<1>(j), b = get<2>(j);
             if(xi>xj||yi<yj) continue;
