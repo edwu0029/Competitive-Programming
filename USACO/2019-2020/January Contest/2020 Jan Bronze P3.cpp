@@ -14,7 +14,7 @@ const int inf = 0x3f3f3f3f;
 const ll infll = 0x3f3f3f3f3f3f3f3f;
 const int MOD = 1e9+7;
 int K, N;
-int solve(){
+void solve(){
     int X; cin >> X;
     int speed = 0, dis = 0, t = 0;
     for(;dis<K;t++){
