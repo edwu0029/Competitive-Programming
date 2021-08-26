@@ -14,7 +14,8 @@ const int inf = 0x3f3f3f3f;
 const ll infll = 0x3f3f3f3f3f3f3f3f;
 const int MOD = 1e9+7;
 int K, N;
-int solve(int X){
+int solve(){
+    int X; cin >> X;
     int speed = 0, dis = 0, t = 0;
     for(;dis<K;t++){
         if(speed<X){
@@ -32,16 +33,15 @@ int solve(int X){
         }
         dis+=speed;
     }
-    return t;
+    cout << t << nl;
 }
 int main(){
     freopen("race.in", "r", stdin);
     freopen("race.out", "w", stdout);
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
     cin >> K >> N;
-    for(int i = 0, X;i<N;i++){
-        cin >> X;
-        cout << solve(X) << nl;
+    for(int i = 0;i<N;i++){
+        solve();
     }
     return 0;
 }
