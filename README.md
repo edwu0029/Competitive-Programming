@@ -4,6 +4,6 @@ A library of my solutions to various competitive programming problems from a var
 |Online Judge|Username|
 | ------ | ------ |
 | DMOJ | [jwed](https://dmoj.ca/user/jwed) |
-| Codeforces | [jwed](https://codeforces.com/profile/jwed) |
+| Codeforces | [jwed_](https://codeforces.com/profile/jwed_) |
 | Atcoder | [jwed](https://atcoder.jp/users/jwed) |
 | CSES | [jwed](https://cses.fi/user/70447) |
