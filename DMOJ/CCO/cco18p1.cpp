@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco18p1
+/*
+Geese vs. Hawks
+Canadian Computing Olympiad: 2018 Day 1, Problem 1
+https://dmoj.ca/problem/cco18p1
+*/
 
 #include <iostream>
 #include <vector>

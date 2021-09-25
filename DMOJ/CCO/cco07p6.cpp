@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco07p6
+/*
+Road Construction
+Canadian Computing Olympiad: 2007 Day 2, Problem 3
+https://dmoj.ca/problem/cco07p6
+*/
 
 #include <iostream>
 #include <vector>

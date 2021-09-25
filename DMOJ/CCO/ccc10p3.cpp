@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco10p3
+/*
+Wowow
+Canadian Computing Olympiad: 2010 Day 1, Problem 3
+https://dmoj.ca/problem/cco10p3
+*/
 
 #include <iostream>
 #include <vector>

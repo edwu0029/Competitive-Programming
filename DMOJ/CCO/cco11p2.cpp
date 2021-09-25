@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco11p2
+/*
+Vampire Tunnels
+Canadian Computing Olympiad: 2011 Day 1, Problem 2
+https://dmoj.ca/problem/cco11p2
+*/
 
 #include <iostream>
 #include <vector>

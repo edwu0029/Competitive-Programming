@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco08p5
+/*
+Candy
+Canadian Computing Olympiad: 2008 Day 2, Problem 2
+https://dmoj.ca/problem/cco08p5
+*/
 
 import java.util.*;
 import java.io.*;

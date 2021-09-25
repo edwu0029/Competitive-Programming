@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco12p1
+/*
+Choose Your Own Arithmetic
+Canadian Computing Olympiad: 2012 Day 1, Problem 1
+https://dmoj.ca/problem/cco12p1
+*/
 
 #include <iostream>
 #include <vector>

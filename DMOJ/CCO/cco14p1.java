@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco14p1
+/*
+Troyangles
+Canadian Computing Olympiad: 2014 Day 1, Problem 1
+https://dmoj.ca/problem/cco14p1
+*/
 
 import java.util.*;
 import java.io.*;

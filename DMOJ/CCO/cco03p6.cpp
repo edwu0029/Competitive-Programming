@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco03p6
+/*
+Cheap Gas
+Canadian Computing Olympiad: 2003 Day 2, Problem 3
+https://dmoj.ca/problem/cco03p6
+*/
 
 #include <iostream>
 #include <vector>
