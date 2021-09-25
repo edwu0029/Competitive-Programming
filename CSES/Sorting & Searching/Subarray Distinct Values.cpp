@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/2428
+/*
+Subarray Distinct Values
+https://cses.fi/problemset/task/2428
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

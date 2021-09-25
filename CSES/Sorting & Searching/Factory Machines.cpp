@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1620
+/*
+Factory Machines
+https://cses.fi/problemset/task/1620
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

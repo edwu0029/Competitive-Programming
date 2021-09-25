@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1673
+/*
+High SCcore
+https://cses.fi/problemset/task/1673
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

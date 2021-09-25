@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1681/
+/*
+Game Routes
+https://cses.fi/problemset/task/1681/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

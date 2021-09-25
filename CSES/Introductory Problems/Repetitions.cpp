@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1069/
+/*
+Repetitions
+https://cses.fi/problemset/task/1069/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

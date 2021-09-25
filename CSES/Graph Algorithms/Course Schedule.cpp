@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1679
+/*
+Course Schedule
+https://cses.fi/problemset/task/1679
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
