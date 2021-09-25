@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc14s4
+/*
+Tinted Glass Window
+Canadian Computing Competition: 2014 Stage 1, Senior #4
+https://dmoj.ca/problem/ccc14s4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

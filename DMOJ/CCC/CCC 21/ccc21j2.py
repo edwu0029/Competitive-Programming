@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc21j2
+'''
+Silent Auction
+Canadian Computing Competition: 2021 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc21j2
+'''
 
 import sys
 input = sys.stdin.readline

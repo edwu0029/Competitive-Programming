@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc12s2
+/*
+Aromatic Numbers
+Canadian Computing Competition: 2012 Stage 1, Senior #2
+https://dmoj.ca/problem/ccc12s2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc19s2
+/*
+Pretty Average Primes
+Canadian Computing Competition: 2019 Stage 1, Senior #2
+https://dmoj.ca/problem/ccc19s2
+*/
 
 import java.util.*;
 import java.io.*;

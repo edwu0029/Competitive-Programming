@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc18j1
+'''
+Telemarketer or not?
+Canadian Computing Competition: 2018 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc18j1
+'''
 
 a = int(input())
 b = int(input())

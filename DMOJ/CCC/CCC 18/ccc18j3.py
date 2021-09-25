@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc18j3
+'''
+Are we there yet?
+Canadian Computing Competition: 2018 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc18j3
+'''
 
 city1 = 0
 city2, city3, city4, city5 = map(int, input().split(' '))

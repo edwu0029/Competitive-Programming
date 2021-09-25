@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc16s5
+/*
+Circle of Life
+Canadian Computing Competition: 2016 Stage 1, Senior #5
+https://dmoj.ca/problem/ccc16s5
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

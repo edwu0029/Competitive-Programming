@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc07j3
+/*
+Deal or No Deal Calculator
+Canadian Computing Competition: 2007 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc07j3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

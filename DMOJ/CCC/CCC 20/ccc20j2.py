@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc20j2
+'''
+Epidemiology
+Canadian Computing Competition: 2020 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc20j2
+'''
 
 import sys
 input = sys.stdin.readline

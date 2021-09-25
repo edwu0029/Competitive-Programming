@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc11j4
+'''
+Boring Business
+Canadian Computing Competition: 2011 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc11j4
+'''
 
 b = [[False for _ in range(500)] for _ in range(500)]
 b[1][250] = True

@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc07s1
+/*
+Federal Voting Age
+Canadian Computing Competition: 2007 Stage 1, Senior #1
+https://dmoj.ca/problem/ccc07s1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

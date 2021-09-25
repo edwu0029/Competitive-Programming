@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc17s3
+/*
+Nailed It!
+Canadian Computing Competition: 2017 Stage 1, Junior #5, Senior #3
+https://dmoj.ca/problem/ccc17s3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

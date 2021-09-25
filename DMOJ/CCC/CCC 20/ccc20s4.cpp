@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc20s4
+/*
+Swapping Seats
+Canadian Computing Competition: 2020 Stage 1, Senior #4
+https://dmoj.ca/problem/ccc20s4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

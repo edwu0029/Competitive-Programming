@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc07j5
+/*
+Keep on Truckin'
+Canadian Computing Competition: 2007 Stage 1, Junior #5
+https://dmoj.ca/problem/ccc07j5
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

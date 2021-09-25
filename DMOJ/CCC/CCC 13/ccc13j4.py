@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc13j4
+'''
+Time on task
+Canadian Computing Competition: 2013 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc13j4
+'''
 
 T = int(input())
 C = int(input())

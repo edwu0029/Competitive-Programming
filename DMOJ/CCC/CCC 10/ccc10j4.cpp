@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc10j4
+/*
+Global Warming
+Canadian Computing Competition: 2010 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc10j4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

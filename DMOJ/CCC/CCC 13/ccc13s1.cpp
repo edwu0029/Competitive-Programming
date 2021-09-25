@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc13s1
+/*
+From 1987 to 2013
+Canadian Computing Competition: 2013 Stage 1, Junior #3, Senior #1
+https://dmoj.ca/problem/ccc13s1
+*/
 
 #include <iostream>
 #include <vector>

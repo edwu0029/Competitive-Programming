@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc20s1
+'''
+Surmising a Sprinter's Speed
+Canadian Computing Competition: 2020 Stage 1, Senior #1
+https://dmoj.ca/problem/ccc20s1
+'''
 
 N = int(input())
 F = []

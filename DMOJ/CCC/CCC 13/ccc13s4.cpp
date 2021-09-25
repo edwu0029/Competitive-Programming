@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc13s4
+/*
+Who is Taller?
+Canadian Computing Competition: 2013 Stage 1, Senior #4
+https://dmoj.ca/problem/ccc13s4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

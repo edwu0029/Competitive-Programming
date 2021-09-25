@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc16j4
+'''
+Arrival Time
+Canadian Computing Competition: 2016 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc16j4
+'''
 
 S = input()
 hour = int(S[0:2])

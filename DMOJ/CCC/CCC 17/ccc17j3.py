@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc17j3
+'''
+Exactly Electrical
+Canadian Computing Competition: 2017 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc17j3
+'''
 
 a, b = map(int, input().split(' '))
 c, d = map(int, input().split(' '))

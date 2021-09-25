@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc09j2
+'''
+Old Fishin' Hole
+Canadian Computing Competition: 2009 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc09j2
+'''
 
 trout = int(input())
 pike = int(input())

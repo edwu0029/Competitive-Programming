@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc12s5
+/*
+Mouse Journey
+Canadian Computing Competition: 2012 Stage 1, Senior #5
+https://dmoj.ca/problem/ccc12s5
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

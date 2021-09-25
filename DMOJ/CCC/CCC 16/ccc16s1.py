@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc16s1
+'''
+Ragaman
+Canadian Computing Competition: 2016 Stage 1, Senior #1
+https://dmoj.ca/problem/ccc16s1
+'''
 
 A = input()
 B = input()

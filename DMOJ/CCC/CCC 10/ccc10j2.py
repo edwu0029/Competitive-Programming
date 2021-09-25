@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc10j2
+'''
+Up and Down
+Canadian Computing Competition: 2010 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc10j2
+'''
 
 a = int(input())
 b = int(input())

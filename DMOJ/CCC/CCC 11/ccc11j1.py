@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc11j1
+'''
+Which Alien?
+Canadian Computing Competition: 2011 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc11j1
+'''
 
 antenna = int(input())
 eyes = int(input())

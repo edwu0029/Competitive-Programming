@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc18j5
+'''
+Choose your own path
+Canadian Computing Competition: 2018 Stage 1, Junior #5
+https://dmoj.ca/problem/ccc18j5
+'''
 
 from collections import deque
 

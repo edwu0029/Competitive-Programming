@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc11s2
+/*
+Multiple Choice
+Canadian Computing Competition: 2011 Stage 1, Senior #2
+https://dmoj.ca/problem/ccc11s2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

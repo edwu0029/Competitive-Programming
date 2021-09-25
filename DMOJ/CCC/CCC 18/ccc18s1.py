@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc18s1
+'''
+Voronoi Villages
+Canadian Computing Competition: 2018 Stage 1, Senior #1
+https://dmoj.ca/problem/ccc18s1
+'''
 
 N = int(input())
 F = [0 for i in range(N)]

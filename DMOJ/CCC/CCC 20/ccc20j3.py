@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc20j3
+'''
+Art
+Canadian Computing Competition: 2020 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc20j3
+'''
 
 import sys
 input = sys.stdin.readline

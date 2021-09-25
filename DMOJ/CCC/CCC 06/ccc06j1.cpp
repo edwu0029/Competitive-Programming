@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc06j1
+/*
+Canadian Calorie Counting
+Canadian Computing Competition: 2006 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc06j1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

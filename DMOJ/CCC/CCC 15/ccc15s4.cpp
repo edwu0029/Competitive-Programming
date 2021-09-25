@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc15s4
+/*
+Convex Hull
+Canadian Computing Competition: 2015 Stage 1, Senior #4
+https://dmoj.ca/problem/ccc15s4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

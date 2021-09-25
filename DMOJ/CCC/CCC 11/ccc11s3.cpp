@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc11s3
+/*
+Alice Through the Looking Glass
+Canadian Computing Competition: 2011 Stage 1, Senior #3
+https://dmoj.ca/problem/ccc11s3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

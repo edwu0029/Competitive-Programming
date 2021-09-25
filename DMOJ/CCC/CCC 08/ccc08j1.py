@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc08j1
+'''
+Body Mass Index
+Canadian Computing Competition: 2008 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc08j1
+'''
 
 w = float(input())
 h = float(input())

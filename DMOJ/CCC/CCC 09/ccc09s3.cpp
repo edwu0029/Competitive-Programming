@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc09s3
+/*
+Degrees Of Separation
+Canadian Computing Competition: 2009 Stage 1, Junior #5, Senior #3
+https://dmoj.ca/problem/ccc09s3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

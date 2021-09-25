@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc21s2
+/*
+Modern Art
+Canadian Computing Competition: 2021 Stage 1, Junior #5, Senior #2
+https://dmoj.ca/problem/ccc21s2
+*/
 
 import java.util.*;
 import java.io.*;

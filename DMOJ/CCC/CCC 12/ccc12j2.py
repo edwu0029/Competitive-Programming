@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc12j2
+'''
+Sounds fishy!
+Canadian Computing Competition: 2012 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc12j2
+'''
 
 d1 = int(input())
 d2 = int(input())

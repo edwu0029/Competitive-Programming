@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc18s2
+/*
+Sunflowers
+Canadian Computing Competition: 2018 Stage 1, Junior #4, Senior #2
+https://dmoj.ca/problem/ccc18s2
+*/
 
 import java.util.*;
 import java.io.*;

@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc09j4
+'''
+Signage
+Canadian Computing Competition: 2009 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc09j4
+'''
 
 w = int(input())
 words = ["WELCOME", "TO", "CCC", "GOOD", "LUCK", "TODAY"]

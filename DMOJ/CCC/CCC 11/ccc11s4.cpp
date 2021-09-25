@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc11s4
+/*
+Blood Distribution
+Canadian Computing Competition: 2011 Stage 1, Senior #4
+https://dmoj.ca/problem/ccc11s4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

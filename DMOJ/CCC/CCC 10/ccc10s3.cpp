@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc10s3
+/*
+Firehose
+Canadian Computing Competition: 2010 Stage 1, Senior #3
+https://dmoj.ca/problem/ccc10s3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

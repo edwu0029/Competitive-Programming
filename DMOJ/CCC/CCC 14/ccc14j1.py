@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc14j1
+'''
+Triangle Times
+Canadian Computing Competition: 2014 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc14j1
+'''
 
 a1 = int(input())
 a2 = int(input())

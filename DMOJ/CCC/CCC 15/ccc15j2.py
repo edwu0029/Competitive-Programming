@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc15j2
+'''
+Happy or Sad
+Canadian Computing Competition: 2015 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc15j2
+'''
 
 import sys
 input = sys.stdin.readline

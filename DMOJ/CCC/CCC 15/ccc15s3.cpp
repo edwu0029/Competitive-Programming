@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc15s3
+/*
+Gates
+Canadian Computing Competition: 2015 Stage 1, Senior #3
+https://dmoj.ca/problem/ccc15s3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

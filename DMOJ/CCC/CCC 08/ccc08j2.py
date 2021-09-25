@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc08j2
+'''
+Do the Shuffle
+Canadian Computing Competition: 2008 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc08j2
+'''
 
 ls = ["A", "B", "C", "D", "E"]
 def push(num):

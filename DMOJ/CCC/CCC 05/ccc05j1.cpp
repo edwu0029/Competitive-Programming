@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc05j1
+/*
+The Cell Sell
+Canadian Computing Competition: 2005 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc05j1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

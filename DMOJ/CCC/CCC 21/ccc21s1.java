@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc21s1
+/*
+Crazy Fencing
+Canadian Computing Competition: 2021 Stage 1, Senior #1
+https://dmoj.ca/problem/ccc21s1
+*/
 
 import java.util.*;
 import java.io.*;
