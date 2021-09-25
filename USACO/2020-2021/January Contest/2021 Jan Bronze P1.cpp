@@ -1,4 +1,8 @@
-//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=1083
+/*
+Uddered but not Herd
+USACO 2021 January Contest, Bronze, Problem 1
+http://usaco.org/index.php?page=viewproblem2&cpid=1083
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

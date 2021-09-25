@@ -1,4 +1,8 @@
-//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=1063
+/*
+Rectangular Pasture
+USACO 2020 December Contest, Silver, Problem 2
+http://usaco.org/index.php?page=viewproblem2&cpid=1063
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

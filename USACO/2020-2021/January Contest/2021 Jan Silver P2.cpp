@@ -1,4 +1,8 @@
-+//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=1087
+/*
+No Time to Paint
+USACO 2021 January Contest, Silver, Problem 2
+http://usaco.org/index.php?page=viewproblem2&cpid=1087
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

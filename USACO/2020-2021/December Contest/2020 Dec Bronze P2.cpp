@@ -1,4 +1,8 @@
-//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=1060
+/*
+Daisy Chains
+USACO 2020 December Contest, Bronze, Problem 2
+http://usaco.org/index.php?page=viewproblem2&cpid=1060
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

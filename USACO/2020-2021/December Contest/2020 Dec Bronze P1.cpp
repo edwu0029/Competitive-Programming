@@ -1,4 +1,8 @@
-//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=1059
+/*
+Do You Know Your ABCs?
+USACO 2020 December Contest, Bronze, Problem 1
+http://usaco.org/index.php?page=viewproblem2&cpid=1059
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
