@@ -1,4 +1,8 @@
-//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=964
+/*
+Where Am I?
+USACO 2019 December Contest, Bronze, Problem 2
+http://usaco.org/index.php?page=viewproblem2&cpid=964
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

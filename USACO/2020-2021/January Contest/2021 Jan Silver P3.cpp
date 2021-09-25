@@ -1,4 +1,8 @@
-//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=1088
+/*
+Spaced Out
+USACO 2021 January Contest, Silver, Problem 3
+http://usaco.org/index.php?page=viewproblem2&cpid=1088
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

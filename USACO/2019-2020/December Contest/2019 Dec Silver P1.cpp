@@ -1,4 +1,8 @@
-//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=966
+/*
+MooBuzz
+USACO 2019 December Contest, Silver, Problem 1
+http://usaco.org/index.php?page=viewproblem2&cpid=966
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

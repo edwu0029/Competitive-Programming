@@ -1,4 +1,8 @@
-//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=965
+/*
+Livestock Lineup
+USACO 2019 December Contest, Bronze, Problem 3
+http://usaco.org/index.php?page=viewproblem2&cpid=965
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

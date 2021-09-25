@@ -1,4 +1,8 @@
-//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=1064
+/*
+Stuck in a Rut
+USACO 2020 December Contest, Silver, Problem 3
+http://usaco.org/index.php?page=viewproblem2&cpid=1064
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,8 @@
-//Problem: http://usaco.org/index.php?page=viewproblem2&cpid=963
+/*
+Cow Gymnastics
+USACO 2019 December Contest, Bronze, Problem 1
+http://usaco.org/index.php?page=viewproblem2&cpid=963
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
