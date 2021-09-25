@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco15p2
+/*
+Artskjid
+Canadian Computing Olympiad: 2015 Day 1, Problem 2
+https://dmoj.ca/problem/cco15p2
+*/
 
 #include <iostream>
 #include <vector>

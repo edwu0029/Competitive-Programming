@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco13p3
+/*
+LHC
+Canadian Computing Olympiad: 2013 Day 1, Problem 3
+https://dmoj.ca/problem/cco13p3
+*/
 
 #include <iostream>
 #include <vector>

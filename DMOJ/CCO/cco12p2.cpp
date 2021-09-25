@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/cco12p2
+/*
+The Hungary Games
+Canadian Computing Olympiad: 2012 Day 1, Problem 2
+https://dmoj.ca/problem/cco12p2
+*/
 
 #include <iostream>
 #include <vector>
