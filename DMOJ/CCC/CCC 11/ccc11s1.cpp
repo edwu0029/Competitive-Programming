@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc11s1
+/*
+English or French?
+Canadian Computing Competition: 2011 Stage 1, Senior #1
+https://dmoj.ca/problem/ccc11s1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

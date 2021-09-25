@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc09s2
+/*
+Lights Going On and Off
+Canadian Computing Competition: 2009 Stage 1, Senior #2
+https://dmoj.ca/problem/ccc09s2
+*/
 
 import java.util.*;
 import java.io.*;

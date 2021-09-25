@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc07s4
+/*
+Waterpark
+Canadian Computing Competition: 2007 Stage 1, Senior #4
+https://dmoj.ca/problem/ccc07s4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

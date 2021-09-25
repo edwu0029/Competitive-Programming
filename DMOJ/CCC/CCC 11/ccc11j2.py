@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc11j2
+'''
+Who Has Seen The Wind
+Canadian Computing Competition: 2011 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc11j2
+'''
 
 h = int(input())
 M = int(input())

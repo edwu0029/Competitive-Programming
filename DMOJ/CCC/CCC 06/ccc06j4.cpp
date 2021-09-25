@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc06j4
+/*
+It's tough being a teen!
+Canadian Computing Competition: 2006 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc06j4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

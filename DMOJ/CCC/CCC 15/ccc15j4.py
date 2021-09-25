@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc15j4
+'''
+Wait Time
+Canadian Computing Competition: 2015 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc15j4
+'''
 
 M = int(input())
 time= 0

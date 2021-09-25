@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc11j3
+'''
+Sumac Sequences
+Canadian Computing Competition: 2011 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc11j3
+'''
 
 p1 = int(input())
 p2 = int(input())

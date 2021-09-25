@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc20s2
+/*
+Escape Room
+Canadian Computing Competition: 2020 Stage 1, Junior #5, Senior #2
+https://dmoj.ca/problem/ccc20s2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

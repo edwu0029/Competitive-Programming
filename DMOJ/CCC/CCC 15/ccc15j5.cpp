@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc15j5
+/*
+π-day
+Canadian Computing Competition: 2015 Stage 1, Junior #5
+https://dmoj.ca/problem/ccc15j5
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

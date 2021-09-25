@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc16j1
+'''
+Tournament Selection
+Canadian Computing Competition: 2016 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc16j1
+'''
 
 win = 0
 for i in range(6):

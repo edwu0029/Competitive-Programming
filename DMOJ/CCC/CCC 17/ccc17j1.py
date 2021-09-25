@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc17j1
+'''
+Quadrant Selection
+Canadian Computing Competition: 2017 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc17j1
+'''
 
 x = int(input())
 y = int(input())

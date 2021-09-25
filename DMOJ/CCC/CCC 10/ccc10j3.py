@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc10j3
+'''
+Punchy
+Canadian Computing Competition: 2010 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc10j3
+'''
 
 m = {'A': 0, 'B': 0}
 while True:

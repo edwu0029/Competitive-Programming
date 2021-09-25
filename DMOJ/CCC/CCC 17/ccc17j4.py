@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc17j4
+'''
+Favourite Times
+Canadian Computing Competition: 2017 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc17j4
+'''
 
 memo = [0 for i in range(722)]
 hour = 12

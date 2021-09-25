@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc10s2
+/*
+Huffman Encoding
+Canadian Computing Competition: 2010 Stage 1, Senior #2
+https://dmoj.ca/problem/ccc10s2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc09j3
+'''
+Good Times
+Canadian Computing Competition: 2009 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc09j3
+'''
 
 def fix(hour, min):
     if min<0:

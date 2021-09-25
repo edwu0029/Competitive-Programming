@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc08s1
+/*
+It's Cold Here!
+Canadian Computing Competition: 2008 Stage 1, Senior #1
+https://dmoj.ca/problem/ccc08s1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

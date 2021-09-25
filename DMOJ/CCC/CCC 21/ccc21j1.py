@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc21j1
+'''
+Boiling Water
+Canadian Computing Competition: 2021 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc21j1
+'''
 
 import sys
 input = sys.stdin.readline

@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc16j2
+'''
+Magic Squares
+Canadian Computing Competition: 2016 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc16j2
+'''
 
 F = [[0 for i in range(4)] for i in range(4)]
 sum = 0

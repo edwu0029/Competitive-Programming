@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc06j3
+/*
+Cell-Phone Messaging
+Canadian Computing Competition: 2006 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc06j3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

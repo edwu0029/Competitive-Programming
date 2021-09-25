@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc06j2
+/*
+Roll the Dice
+Canadian Computing Competition: 2006 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc06j2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

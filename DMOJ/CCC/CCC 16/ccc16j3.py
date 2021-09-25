@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc16j3
+'''
+Hidden Palindrome
+Canadian Computing Competition: 2016 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc16j3
+'''
 
 def check(A):
     for i in range(len(A)//2):

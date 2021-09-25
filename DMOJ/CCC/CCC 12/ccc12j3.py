@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc12j3
+'''
+Icon Scaling
+Canadian Computing Competition: 2012 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc12j3
+'''
 
 K = int(input())
 ch = [['*', 'x', '*'], [' ', 'x', 'x'], ['*', ' ', '*']]

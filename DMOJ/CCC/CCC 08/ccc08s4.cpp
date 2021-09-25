@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc08s4
+/*
+Twenty-four
+Canadian Computing Competition: 2008 Stage 1, Senior #4
+https://dmoj.ca/problem/ccc08s4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

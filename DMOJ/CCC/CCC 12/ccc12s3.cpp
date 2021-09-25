@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc12s3
+/*
+Absolutely Acidic
+Canadian Computing Competition: 2012 Stage 1, Senior #3
+https://dmoj.ca/problem/ccc12s3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

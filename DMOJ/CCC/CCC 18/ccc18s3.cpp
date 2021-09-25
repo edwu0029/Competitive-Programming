@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc18s3
+/*
+RoboThieves
+Canadian Computing Competition: 2018 Stage 1, Senior #3
+https://dmoj.ca/problem/ccc18s3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

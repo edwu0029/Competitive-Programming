@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc05j3
+/*
+Returning Home
+Canadian Computing Competition: 2005 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc05j3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

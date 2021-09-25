@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc20s3
+/*
+Searching for Strings
+Canadian Computing Competition: 2020 Stage 1, Senior #3
+https://dmoj.ca/problem/ccc20s3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

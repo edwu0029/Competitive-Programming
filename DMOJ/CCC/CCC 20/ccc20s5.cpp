@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc20s5
+/*
+Josh's Double Bacon Deluxe
+Canadian Computing Competition: 2020 Stage 1, Senior #5
+https://dmoj.ca/problem/ccc20s5
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc17s2
+'''
+High Tide, Low Tide
+Canadian Computing Competition: 2017 Stage 1, Senior #2
+https://dmoj.ca/problem/ccc17s2
+'''
 
 N = int(input())
 F = list(map(int, input().split(' ')))

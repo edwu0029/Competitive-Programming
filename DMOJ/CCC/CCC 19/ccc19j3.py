@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc19j3
+'''
+Cold Compress
+Canadian Computing Competition: 2019 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc19j3
+'''
 
 N = int(input())
 for _ in range(N):

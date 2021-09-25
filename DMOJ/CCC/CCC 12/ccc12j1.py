@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc12j1
+'''
+Speed fines are not fine!
+Canadian Computing Competition: 2012 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc12j1
+'''
 
 limit = int(input())
 speed = int(input())

@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc17s1
+'''
+Sum Game
+Canadian Computing Competition: 2017 Stage 1, Senior #1
+https://dmoj.ca/problem/ccc17s1
+'''
 
 N = int(input())
 swift = list(map(int, input().split(' ')))

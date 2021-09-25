@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc16s3
+/*
+Phonomenal Reviews
+Canadian Computing Competition: 2016 Stage 1, Senior #3
+https://dmoj.ca/problem/ccc16s3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

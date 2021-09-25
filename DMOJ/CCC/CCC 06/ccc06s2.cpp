@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc06s2
+/*
+Attack of the CipherTexts
+Canadian Computing Competition: 2006 Stage 1, Senior #2
+https://dmoj.ca/problem/ccc06s2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

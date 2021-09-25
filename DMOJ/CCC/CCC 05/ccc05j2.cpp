@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc05j2
+/*
+RSA Numbers
+Canadian Computing Competition: 2005 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc05j2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

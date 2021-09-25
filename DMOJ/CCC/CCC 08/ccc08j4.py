@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc08j4
+'''
+From Prefix to Postfix
+Canadian Computing Competition: 2008 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc08j4
+'''
 
 ops="+-"
 while True:

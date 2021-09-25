@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc07j4
+/*
+Anagram Checker
+Canadian Computing Competition: 2007 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc07j4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

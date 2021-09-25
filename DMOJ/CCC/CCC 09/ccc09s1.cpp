@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc09s1
+/*
+Cool Numbers
+Canadian Computing Competition: 2009 Stage 1, Senior #1
+https://dmoj.ca/problem/ccc09s1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

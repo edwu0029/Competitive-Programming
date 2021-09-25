@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc15j3
+'''
+Rövarspråket
+Canadian Computing Competition: 2015 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc15j3
+'''
 
 alpha = "abcdefghijklmnopqrstuvwxyz"
 vowels = "aeiou"

@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc10j5
+/*
+Knight Hop
+Canadian Computing Competition: 2010 Stage 1, Junior #5
+https://dmoj.ca/problem/ccc10j5
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

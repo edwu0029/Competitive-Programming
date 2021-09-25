@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc11j5
+'''
+Unfriend
+Canadian Computing Competition: 2011 Stage 1, Junior #5
+https://dmoj.ca/problem/ccc11j5
+'''
 
 N = int(input())
 adj = [[0 for i in range(7)] for i in range(7)]

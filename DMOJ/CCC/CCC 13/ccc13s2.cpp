@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc13s2
+/*
+Bridge Transport
+Canadian Computing Competition: 2013 Stage 1, Senior #2
+https://dmoj.ca/problem/ccc13s2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

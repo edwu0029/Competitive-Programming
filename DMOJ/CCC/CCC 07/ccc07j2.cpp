@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc07j2
+/*
+I Speak TXTMSG
+Canadian Computing Competition: 2007 Stage 1, Junior #2
+https://dmoj.ca/problem/ccc07j2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

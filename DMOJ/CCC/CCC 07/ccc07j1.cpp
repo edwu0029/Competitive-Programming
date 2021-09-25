@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc07j1
+/*
+Who is in the Middle?
+Canadian Computing Competition: 2007 Stage 1, Junior #1
+https://dmoj.ca/problem/ccc07j1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

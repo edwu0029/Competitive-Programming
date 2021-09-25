@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc21s3
+/*
+Lunch Concert
+Canadian Computing Competition: 2021 Stage 1, Senior #3
+https://dmoj.ca/problem/ccc21s3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

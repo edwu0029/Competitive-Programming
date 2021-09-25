@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc16s2
+'''
+Tandem Bicycle
+Canadian Computing Competition: 2016 Stage 1, Junior #5, Senior #2
+https://dmoj.ca/problem/ccc16s2
+'''
 
 q = int(input())
 N = int(input())

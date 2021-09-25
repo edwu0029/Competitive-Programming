@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc12j4
+'''
+Big Bang Secrets
+Canadian Computing Competition: 2012 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc12j4
+'''
 
 K = int(input())
 msg = input()

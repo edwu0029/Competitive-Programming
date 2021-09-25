@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc08j3
+'''
+GPS Text Entry
+Canadian Computing Competition: 2008 Stage 1, Junior #3
+https://dmoj.ca/problem/ccc08j3
+'''
 
 pos = {'A':(1, 1), 'B':(1, 2), 'C':(1, 3), 'D':(1, 4), 'E':(1, 5), 'F':(1, 6),
        'G':(2, 1), 'H':(2, 2), 'I':(2, 3), 'J':(2, 4), 'K':(2, 5), 'L':(2, 6),

@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ccc17s4
+/*
+Minimum Cost Flow
+Canadian Computing Competition: 2017 Stage 1, Senior #4
+https://dmoj.ca/problem/ccc17s4
+*/
 
 import java.util.*;
 import java.io.*;

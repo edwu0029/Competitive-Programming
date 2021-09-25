@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc19s1
+'''
+Flipper
+Canadian Computing Competition: 2019 Stage 1, Junior #4, Senior #1
+https://dmoj.ca/problem/ccc19s1
+'''
 
 H = [[1, 2], [3, 4]]
 def h_flip():

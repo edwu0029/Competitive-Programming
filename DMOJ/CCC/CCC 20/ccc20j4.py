@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/ccc20j4
+'''
+Cyclic Shifts
+Canadian Computing Competition: 2020 Stage 1, Junior #4
+https://dmoj.ca/problem/ccc20j4
+'''
 
 import sys
 input = sys.stdin.readline
