@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1624/
+/*
+Chessboard and Queens
+https://cses.fi/problemset/task/1624/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

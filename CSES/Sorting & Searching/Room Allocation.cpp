@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1164/
+/*
+Room Allocation
+https://cses.fi/problemset/task/1164/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

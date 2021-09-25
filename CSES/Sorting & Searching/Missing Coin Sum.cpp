@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/2183/
+/*
+Missing Coin Sum
+https://cses.fi/problemset/task/2183/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1754/
+/*
+Coin Piles
+https://cses.fi/problemset/task/1754/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

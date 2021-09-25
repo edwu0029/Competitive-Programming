@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1668/
+/*
+Building Teams
+https://cses.fi/problemset/task/1668/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,6 +1,9 @@
-//Problem: https://cses.fi/problemset/task/1661
-//Same code as Subarray Sums I
+/*
+Subarray Sums II
+https://cses.fi/problemset/task/1661
+*/
 
+//Same code as Subarray Sums I
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/2162
+/*
+Josephus Problem I
+https://cses.fi/problemset/task/2162
+*/
 
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>

@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1642/
+/*
+Sum of Four Values
+https://cses.fi/problemset/task/1642/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
