@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/coci06c1p5
+/*
+Bond
+COCI '06 Contest 1 #5
+https://dmoj.ca/problem/coci06c1p5
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

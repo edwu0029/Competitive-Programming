@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/coci07c6p1
+/*
+Parking
+COCI '07 Contest 6 #1
+https://dmoj.ca/problem/coci07c6p1
+*/
 
 import java.util.*;
 import java.io.*;

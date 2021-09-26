@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/coci07c4p3
+/*
+Lektira
+COCI '07 Contest 4 #3
+https://dmoj.ca/problem/coci07c4p3
+*/
 
 import java.io.*;
 import java.util.*;

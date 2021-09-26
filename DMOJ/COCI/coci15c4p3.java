@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/coci15c4p3
+/*
+Deathstar
+COCI '15 Contest 4 #3
+https://dmoj.ca/problem/coci15c4p3
+*/
 
 import java.util.*;
 import java.io.*;

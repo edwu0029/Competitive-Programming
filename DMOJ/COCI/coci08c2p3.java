@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/coci08c2p3
+/*
+Perket
+COCI '08 Contest 2 #3
+https://dmoj.ca/problem/coci08c2p3
+*/
 
 import java.util.*;
 import java.io.*;

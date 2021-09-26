@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/coci07c4p1
+'''
+Vauvau
+COCI '07 Contest 4 #1
+https://dmoj.ca/problem/coci07c4p1
+'''
 
 def ans(a, b):
     if(a+b==2):

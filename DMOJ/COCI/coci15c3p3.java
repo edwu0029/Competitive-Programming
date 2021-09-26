@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/coci15c3p3
+/*
+Molekule
+COCI '15 Contest 3 #3
+https://dmoj.ca/problem/coci15c3p3
+*/
 
 import java.util.*;
 import java.io.*;
