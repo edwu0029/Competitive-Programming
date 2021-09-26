@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ecoo21p3
+/*
+Quintessential Questions
+ECOO '21 P3
+https://dmoj.ca/problem/ecoo21p3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

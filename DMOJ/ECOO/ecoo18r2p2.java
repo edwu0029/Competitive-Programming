@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ecoo18r2p2
+/*
+Homework
+ECOO '18 R2 P2
+https://dmoj.ca/problem/ecoo18r2p2
+*/
 
 import java.io.*;
 import java.util.*;

@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ecoo21p2
+/*
+DNA Derren
+ECOO '21 P2
+https://dmoj.ca/problem/ecoo21p2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

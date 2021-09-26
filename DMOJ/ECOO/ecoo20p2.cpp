@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ecoo20p2
+/*
+Online Shopping
+ECOO '20 P2
+https://dmoj.ca/problem/ecoo20p2
+*/
 
 #include <iostream>
 #include <vector>

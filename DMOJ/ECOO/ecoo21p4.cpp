@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ecoo21p4
+/*
+Chris' Candy
+ECOO '21 P4
+https://dmoj.ca/problem/ecoo21p4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
