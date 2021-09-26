@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/ecoo20p3
+/*
+Captcha Fun
+ECOO '20 P3
+https://dmoj.ca/problem/ecoo20p3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
