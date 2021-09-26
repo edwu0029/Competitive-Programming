@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc18c3p4
+/*
+Bob and English Class
+DMOPC '18 Contest 3 P4
+https://dmoj.ca/problem/dmopc18c3p4
+*/
 
 #include <iostream>
 #include <vector>

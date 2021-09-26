@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc19c2p3
+/*
+Selection
+DMOPC '19 Contest 2 P3
+https://dmoj.ca/problem/dmopc19c2p3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

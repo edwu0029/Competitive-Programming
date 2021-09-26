@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc14c1p5
+/*
+Surprise Teleport
+DMOPC '14 Contest 1 P5
+https://dmoj.ca/problem/dmopc14c1p5
+*/
 
 import java.util.*;
 import java.io.*;

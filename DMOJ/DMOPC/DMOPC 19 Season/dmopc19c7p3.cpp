@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc19c7p3
+/*
+Tree Pruning
+DMOPC '19 Contest 7 P3
+https://dmoj.ca/problem/dmopc19c7p3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

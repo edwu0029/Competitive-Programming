@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc17c1p4
+/*
+Quests
+DMOPC '17 Contest 1 P4
+https://dmoj.ca/problem/dmopc17c1p4
+*/
 
 #include <iostream>
 #include <vector>

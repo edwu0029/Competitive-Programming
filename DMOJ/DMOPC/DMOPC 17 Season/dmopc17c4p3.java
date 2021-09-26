@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc17c4p3
+/*
+Third Place
+DMOPC '17 Contest 4 P3
+https://dmoj.ca/problem/dmopc17c4p3
+*/
 
 import java.io.*;
 import java.util.*;

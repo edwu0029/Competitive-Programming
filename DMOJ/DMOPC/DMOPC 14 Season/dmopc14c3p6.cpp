@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc14c3p6
+/*
+Not Enough Time!
+DMOPC '14 Contest 3 P6
+https://dmoj.ca/problem/dmopc14c3p6
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

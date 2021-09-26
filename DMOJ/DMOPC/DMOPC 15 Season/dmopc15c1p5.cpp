@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc15c1p5
+/*
+Lelei and Dragon Scales
+DMOPC '15 Contest 1 P5
+https://dmoj.ca/problem/dmopc15c1p5
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

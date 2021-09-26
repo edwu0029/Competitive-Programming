@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc16c4p3
+/*
+Carnival Phantasm
+DMOPC '16 Contest 4 P3
+https://dmoj.ca/problem/dmopc16c4p3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc16c4p1
+/*
+Fast Exponents
+DMOPC '16 Contest 4 P1
+https://dmoj.ca/problem/dmopc16c4p1
+*/
 
 #include <iostream>
 #include <vector>

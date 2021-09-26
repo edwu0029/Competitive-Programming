@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc16c1p3
+/*
+Shoe Shopping
+DMOPC '16 Contest 1 P3
+https://dmoj.ca/problem/dmopc16c1p3
+*/
 
 import java.io.*;
 import java.util.*;

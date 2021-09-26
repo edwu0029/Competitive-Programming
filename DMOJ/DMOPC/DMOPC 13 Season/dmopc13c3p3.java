@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc13c3p3
+/*
+Crossing Field
+DMOPC '13 Contest 3 P3
+https://dmoj.ca/problem/dmopc13c3p3
+*/
 
 import java.util.*;
 import java.io.*;

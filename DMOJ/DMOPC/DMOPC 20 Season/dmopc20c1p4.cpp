@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc20c1p4
+/*
+Victor Makes Bank
+DMOPC '20 Contest 1 P4
+https://dmoj.ca/problem/dmopc20c1p4
+*/
 
 #include <iostream>
 #include <vector>

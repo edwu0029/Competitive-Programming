@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc14c2p5
+/*
+Sawmill Scheme
+DMOPC '14 Contest 2 P5
+https://dmoj.ca/problem/dmopc14c2p5
+*/
 
 import java.util.*;
 import java.io.*;

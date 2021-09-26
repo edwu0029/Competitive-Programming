@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc13c1p4
+/*
+AFK
+DMOPC '13 Contest 1 P4
+https://dmoj.ca/problem/dmopc13c1p4
+*/
 
 import java.util.*;
 import java.io.*;

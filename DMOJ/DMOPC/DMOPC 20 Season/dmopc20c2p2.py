@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/dmopc20c2p2
+'''
+Lousy Christmas Presents
+DMOPC '20 Contest 2 P2
+https://dmoj.ca/problem/dmopc20c2p2
+'''
 
 N, M = map(int, input().split(' '))
 colours = list(map(int, input().split(' ')))

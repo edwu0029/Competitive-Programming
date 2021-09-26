@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/dmopc15c6p3
+'''
+Harvest
+DMOPC '15 Contest 6 P3
+https://dmoj.ca/problem/dmopc15c6p3
+'''
 
 N, M, K = map(int, input().split(' '))
 rows = [0 for i in range(N+1)]

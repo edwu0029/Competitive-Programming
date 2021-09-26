@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc13c3p5
+/*
+A Romantic Dinner
+DMOPC '13 Contest 3 P5
+https://dmoj.ca/problem/dmopc13c3p5
+*/
 
 #include <iostream>
 #include <vector>

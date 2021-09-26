@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc14c2p1
+/*
+Logging Log
+DMOPC '14 Contest 2 P1
+https://dmoj.ca/problem/dmopc14c2p1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

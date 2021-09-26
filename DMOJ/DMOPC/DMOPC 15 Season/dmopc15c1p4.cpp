@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc15c1p4
+/*
+Itami and Candy
+DMOPC '15 Contest 1 P4
+https://dmoj.ca/problem/dmopc15c1p4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

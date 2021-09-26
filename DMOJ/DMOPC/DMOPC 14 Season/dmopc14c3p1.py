@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/dmopc14c3p1
+'''
+Not Enough Users!
+DMOPC '14 Contest 3 P1
+https://dmoj.ca/problem/dmopc14c3p1
+'''
 
 import sys
 input = sys.stdin.readline

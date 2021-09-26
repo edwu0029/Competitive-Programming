@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/dmopc17c2p0
+'''
+Secrets
+DMOPC '17 Contest 2 P0
+https://dmoj.ca/problem/dmopc17c2p0
+'''
 
 x1, y1 = map(int, input().split(' '))
 x2, y2 = map(int, input().split(' '))

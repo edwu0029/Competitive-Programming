@@ -1,5 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc20c1p2
-
+/*
+Victor's Moral Dilemma
+DMOPC '20 Contest 1 P2
+https://dmoj.ca/problem/dmopc20c1p2
+*/
 #include <iostream>
 #include <vector>
 #include <limits>
