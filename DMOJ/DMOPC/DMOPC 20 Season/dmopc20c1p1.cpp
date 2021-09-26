@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc20c1p1
+/*
+Victor Gets Quizzed
+DMOPC '20 Contest 1 P1
+https://dmoj.ca/problem/dmopc20c1p1
+*/
 
 #include <iostream>
 #include <vector>

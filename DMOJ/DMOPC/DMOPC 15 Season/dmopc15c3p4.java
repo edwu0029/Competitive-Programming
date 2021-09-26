@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc15c3p4
+/*
+Contagion
+DMOPC '15 Contest 3 P4
+https://dmoj.ca/problem/dmopc15c3p4
+*/
 
 import java.util.*;
 import java.io.*;

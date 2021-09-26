@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc20c2p3
+/*
+Roadrollification
+DMOPC '20 Contest 2 P3
+https://dmoj.ca/problem/dmopc20c2p3
+*/
 
 #include <iostream>
 #include <vector>

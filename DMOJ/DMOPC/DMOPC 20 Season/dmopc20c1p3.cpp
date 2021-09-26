@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc20c1p3
+/*
+Victor's Algorithm
+DMOPC '20 Contest 1 P3
+https://dmoj.ca/problem/dmopc20c1p3
+*/
 
 #include <iostream>
 #include <vector>

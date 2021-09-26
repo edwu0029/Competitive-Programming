@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc14c5p1
+/*
+Core Drill
+DMOPC '14 Contest 6 P1
+https://dmoj.ca/problem/dmopc14c5p1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

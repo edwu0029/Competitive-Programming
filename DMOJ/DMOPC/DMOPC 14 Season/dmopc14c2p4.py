@@ -1,4 +1,8 @@
-#Problem: https://dmoj.ca/problem/dmopc14c2p4
+'''
+Deforestation
+DMOPC '14 Contest 2 P4
+https://dmoj.ca/problem/dmopc14c2p4
+'''
 
 import sys
 input = sys.stdin.readline

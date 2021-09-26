@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc15c2p1
+/*
+Grumpy Dwarf
+DMOPC '15 Contest 2 P1
+https://dmoj.ca/problem/dmopc15c2p1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc19c7p1
+/*
+Hydrocarbons
+DMOPC '19 Contest 7 P1
+https://dmoj.ca/problem/dmopc19c7p1
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

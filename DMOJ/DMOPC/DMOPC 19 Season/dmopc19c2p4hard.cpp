@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc19c2p4hard
+/*
+A Greedy Problem
+DMOPC '19 Contest 2 P4
+https://dmoj.ca/problem/dmopc19c2p4hard
+*/
 
 #include <iostream>
 #include <vector>

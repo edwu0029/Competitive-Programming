@@ -1,4 +1,8 @@
-//Prolbem: https://dmoj.ca/problem/dmopc19c3p2
+/*
+Generating Names
+DMOPC '19 Contest 3 P2
+https://dmoj.ca/problem/dmopc19c3p2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

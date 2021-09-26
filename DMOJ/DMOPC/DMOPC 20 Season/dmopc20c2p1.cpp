@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc20c2p1
+/*
+Laugh Graphs
+DMOPC '20 Contest 2 P1
+https://dmoj.ca/problem/dmopc20c2p1
+*/
 
 #include <iostream>
 #include <vector>

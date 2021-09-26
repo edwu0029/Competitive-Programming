@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc17c5p3
+/*
+Mimi and Primes
+DMOPC '17 Contest 5 P3
+https://dmoj.ca/problem/dmopc17c5p3
+*/
 
 import java.util.*;
 import java.io.*;

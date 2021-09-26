@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc15c6p4
+/*
+Line Graph
+DMOPC '15 Contest 6 P4
+https://dmoj.ca/problem/dmopc15c6p4
+*/
 
 import java.util.*;
 import java.io.*;

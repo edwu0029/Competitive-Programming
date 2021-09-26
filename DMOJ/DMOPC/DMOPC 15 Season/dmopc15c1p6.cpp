@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc15c1p6
+/*
+Lelei and Contest
+DMOPC '15 Contest 1 P6
+https://dmoj.ca/problem/dmopc15c1p6
+*/
 
 #include <iostream>
 #include <vector>

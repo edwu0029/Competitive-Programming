@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc18c2p3
+/*
+Thanksgiving Feast
+DMOPC '18 Contest 2 P3
+https://dmoj.ca/problem/dmopc18c2p3
+*/
 
 import java.io.*;
 import java.util.*;

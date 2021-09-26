@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc18c3p0
+/*
+Bob and ICS Class
+DMOPC '18 Contest 3 P0
+https://dmoj.ca/problem/dmopc18c3p0
+*/
 
 import java.io.BufferedReader;
 import java.io.IOException;

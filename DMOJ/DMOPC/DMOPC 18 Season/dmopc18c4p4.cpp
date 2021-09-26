@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc18c4p4
+/*
+Dr. Henri and Lab Data
+DMOPC '18 Contest 4 P4
+https://dmoj.ca/problem/dmopc18c4p4
+*/
 
 #include <iostream>
 #include <vector>

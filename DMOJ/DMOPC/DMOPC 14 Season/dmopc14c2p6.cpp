@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc14c2p6
+/*
+Selective Cutting
+DMOPC '14 Contest 2 P6
+https://dmoj.ca/problem/dmopc14c2p6
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmopc15c2p4
+/*
+Personal Assistant
+DMOPC '15 Contest 2 P4
+https://dmoj.ca/problem/dmopc15c2p4
+*/
 
 #include <iostream>
 #include <vector>
