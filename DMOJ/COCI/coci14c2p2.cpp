@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/coci14c2p2
+/*
+Utrka
+COCI '14 Contest 2 #2
+https://dmoj.ca/problem/coci14c2p2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

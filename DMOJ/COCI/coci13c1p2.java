@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/coci13c1p2
+/*
+Kušač
+COCI '13 Contest 1 #2
+https://dmoj.ca/problem/coci13c1p2
+*/
 
 import java.io.BufferedReader;
 import java.io.IOException;

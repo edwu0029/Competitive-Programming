@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/coci07c6p3
+/*
+Granica
+COCI '07 Contest 6 #3
+https://dmoj.ca/problem/coci07c6p3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
