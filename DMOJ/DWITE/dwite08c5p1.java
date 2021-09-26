@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite08c5p1
+/*
+Baby Diff
+DWITE Online Computer Programming Contest, February 2009, Problem 1
+https://dmoj.ca/problem/dwite08c5p1
+*/
 
 import java.io.*;
 import java.util.*;

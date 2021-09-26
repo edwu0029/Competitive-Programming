@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite07c2p5
+/*
+Bridges In A Graph
+DWITE Online Computer Programming Contest, November 2007, Problem 5
+https://dmoj.ca/problem/dwite07c2p5
+*/
 
 import java.io.*;
 import java.util.*;

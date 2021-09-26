@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite12c2p5
+/*
+Car Hoppers
+DWITE Online Computer Programming Contest, November 2012, Problem 5
+https://dmoj.ca/problem/dwite12c2p5
+*/
 
 import java.io.*;
 import java.util.*;

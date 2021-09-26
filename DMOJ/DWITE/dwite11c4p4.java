@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite11c4p4
+/*
+Lego Ladder
+DWITE Online Computer Programming Contest, January 2012, Problem 4
+https://dmoj.ca/problem/dwite11c4p4
+*/
 
 import java.io.*;
 import java.util.*;

@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite09c6p4
+/*
+Time for Change
+DWITE Online Computer Programming Contest, April 2010, Problem 4
+https://dmoj.ca/problem/dwite09c6p4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

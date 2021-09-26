@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite08c2p4
+/*
+Big shiny tunes
+DWITE Online Computer Programming Contest, November 2008, Problem 4
+https://dmoj.ca/problem/dwite08c2p4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

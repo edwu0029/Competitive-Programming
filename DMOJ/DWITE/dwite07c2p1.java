@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite07c2p1
+/*
+Not Quite Prime
+DWITE Online Computer Programming Contest, November 2007, Problem 1
+https://dmoj.ca/problem/dwite07c2p1
+*/
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite10c3p3
+/*
+Dominos Tiling
+DWITE Online Computer Programming Contest, December 2010, Problem 3
+https://dmoj.ca/problem/dwite10c3p3
+*/
 
 import java.io.*;
 import java.util.*;

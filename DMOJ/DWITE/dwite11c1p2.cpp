@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite11c1p2
+/*
+Penny Game
+DWITE Online Computer Programming Contest, October 2011, Problem 2
+https://dmoj.ca/problem/dwite11c1p2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

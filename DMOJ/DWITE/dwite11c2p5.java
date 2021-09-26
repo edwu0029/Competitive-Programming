@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite11c2p5
+/*
+Portals Check
+DWITE Online Computer Programming Contest, November 2011, Problem 5
+https://dmoj.ca/problem/dwite11c2p5
+*/
 
 import java.util.*;
 import java.io.*;

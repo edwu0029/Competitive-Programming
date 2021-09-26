@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite07c1p4
+/*
+Stacks of Blocks
+DWITE Online Computer Programming Contest, October 2007, Problem 4
+https://dmoj.ca/problem/dwite07c1p4
+*/
 
 import java.io.*;
 import java.util.*;

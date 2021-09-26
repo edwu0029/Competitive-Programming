@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite07c4p4
+/*
+Shortest path around
+DWITE Online Computer Programming Contest, January 2008, Problem 4
+https://dmoj.ca/problem/dwite07c4p4
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

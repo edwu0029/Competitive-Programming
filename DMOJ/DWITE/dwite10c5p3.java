@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite10c5p3
+/*
+Balancing Act
+DWITE Online Computer Programming Contest, February 2011, Problem 3
+https://dmoj.ca/problem/dwite10c5p3
+*/
 
 import java.util.*;
 import java.io.*;
