@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite11c4p2
+/*
+Prime Time
+DWITE Online Computer Programming Contest, January 2012, Problem 2
+https://dmoj.ca/problem/dwite11c4p2
+*/
 
 import java.util.*;
 import java.io.*;

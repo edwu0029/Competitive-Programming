@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite08c3p3
+/*
+Unicorns and Teaspoons
+DWITE Online Computer Programming Contest, December 2008, Problem 3
+https://dmoj.ca/problem/dwite08c3p3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

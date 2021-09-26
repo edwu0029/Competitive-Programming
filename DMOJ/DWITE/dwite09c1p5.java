@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite09c1p5
+/*
+Running In Circles
+DWITE Online Computer Programming Contest, October 2009, Problem 5
+https://dmoj.ca/problem/dwite09c1p5
+*/
 
 import java.util.Scanner;
 

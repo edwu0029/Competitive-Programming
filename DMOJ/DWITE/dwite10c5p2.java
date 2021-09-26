@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite10c5p2
+/*
+Safe from Rooks
+DWITE Online Computer Programming Contest, February 2011, Problem 2
+https://dmoj.ca/problem/dwite10c5p2
+*/
 
 import java.util.*;
 import java.io.*;

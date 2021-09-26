@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dwite09c7p2
+/*
+Sum of Primes
+DWITE Online Computer Programming Contest, May 2010, Problem 2
+https://dmoj.ca/problem/dwite09c7p2
+*/
 
 import java.io.*;
 import java.util.*;
