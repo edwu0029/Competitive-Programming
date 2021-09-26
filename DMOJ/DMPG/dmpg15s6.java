@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmpg15s6
+/*
+Apples to Oranges
+DMPG '15 S6
+https://dmoj.ca/problem/dmpg15s6
+*/
 
 import java.util.StringTokenizer;
 import java.io.IOException;

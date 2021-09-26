@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmpg16s5
+/*
+Pizza Bag
+DMPG '16 S5
+https://dmoj.ca/problem/dmpg16s5
+*/
 
 #include <iostream>
 #include <vector>

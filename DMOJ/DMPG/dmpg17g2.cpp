@@ -1,4 +1,8 @@
-//Problem: https://dmoj.ca/problem/dmpg17g2
+/*
+Holy Grail War
+DMPG '17 G2
+https://dmoj.ca/problem/dmpg17g2
+*/
 
 #include <iostream>
 #include <vector>
