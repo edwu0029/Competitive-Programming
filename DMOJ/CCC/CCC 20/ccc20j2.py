@@ -13,13 +13,13 @@ R = int(input())
 
 if N>P:
     print(0)
-    exit()
-pre = N
-day = 0
-while True:
-    day+=1
-    N+=(R*pre)
-    pre*=R
-    if P<N:
-        print(day)
-        exit()
+else:
+    pre = N
+    day = 0
+    while True:
+        day+=1
+        N+=(R*pre)
+        pre*=R
+        if P<N:
+            print(day)
+            break
