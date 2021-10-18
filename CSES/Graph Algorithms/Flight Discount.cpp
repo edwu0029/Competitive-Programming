@@ -42,6 +42,7 @@ int main(){
         auto cur = pq.top();
         pq.pop();
         int u = cur.v, used = cur.used;
+        if(dis[u][used]<cur.d) continue;
         for(pii i:adj[u]){
             int v = i.first, d = i.second;
             if(used&&dis[v][0]>dis[u][1]+d/2){
