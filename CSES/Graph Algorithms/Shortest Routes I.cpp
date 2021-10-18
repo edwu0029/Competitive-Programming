@@ -1,4 +1,7 @@
-//Problem: https://cses.fi/problemset/task/1671/
+/*
+Shortest Routes I
+https://cses.fi/problemset/task/1671/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
