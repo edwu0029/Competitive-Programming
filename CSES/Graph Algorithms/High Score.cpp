@@ -1,5 +1,5 @@
 /*
-High SCcore
+High Score
 https://cses.fi/problemset/task/1673
 */
 
@@ -15,48 +15,48 @@ typedef pair<int, int> pii;
 const int inf = 0x3f3f3f3f;
 const ll infll = 0x3f3f3f3f3f3f3f3f;
 const ll MOD = 1e9+7;
-const ll MODll = 4000004479;
 const int MAXN = 2505;
-int N, M, vis[MAXN];
+int N, M, vis[MAXN], visr[MAXN];
 ll dis[MAXN];
-bool possible_looping = false, possible[MAXN];
-vector<int>adj[MAXN];
-vector<pii>adj2[MAXN];
+vector<array<int, 3>>edges;
+vector<int>adj[MAXN], adjr[MAXN];
 void dfs(int u){
-    possible[u] = true;
+    vis[u] = true;
     for(int v:adj[u]){
-        if(!possible[v]) dfs(v);
+        if(vis[v]) continue;
+        dfs(v);
     }
 }
-void dfs2(int u){
-    vis[u]++;
-    if(possible_looping) return;
-    for(auto i:adj2[u]){
-        int v = i.first, d = i.second;
-        if(vis[v]&&(dis[u]+d)-dis[v]>0&&possible[v]){
-            possible_looping = true;
-            return;
-        }
-        if(!vis[v]&&dis[v]<dis[u]+d){
-            dis[v] = dis[u]+d;
-            dfs2(v);
-        }
+void dfsr(int u){
+    visr[u] = true;
+    for(int v:adjr[u]){
+        if(visr[v]) continue;
+        dfsr(v);
     }
-    vis[u]--;
 }
 int main(){
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
     cin >> N >> M;
     for(int i = 0, a, b, c;i<M;i++){
         cin >> a >> b >> c;
-        adj[b].push_back(a);
-        adj2[a].push_back({b, c});
+        edges.push_back({a, b, c});
+        adj[a].push_back(b);
+        adjr[b].push_back(a);
     }
-    dfs(N);
+    dfs(1);
+    dfsr(N);
     memset(dis, 0xc0, sizeof(dis));
     dis[1] = 0;
-    dfs2(1);
-    if(possible_looping) cout << -1 << nl;
+    bool infans = false;
+    for(int i = 0;i<N;i++){
+        for(auto [u, v, d]:edges){
+            if(dis[v]<dis[u]+d){
+                dis[v] = dis[u]+d;
+                if(i==N-1&&vis[v]&&visr[v]) infans = true; 
+            }
+        }
+    }
+    if(infans) cout << -1 << nl;
     else cout << dis[N] << nl;
     return 0;
 }
